@@ -1,0 +1,79 @@
+{
+  "failures": [],
+  "runs": [
+    {
+      "disposition": "PRESERVE_AND_SURFACE",
+      "item_id": "QY-EX-01",
+      "ledger_head_hash": "dc41d7cfae86a293b5cc82c1f53a495edf9421689027edaad84dc23b255a4f4b",
+      "manifest_merkle_root": "ab17011ba18c4361a01d66b1c90b7facc0a996069c72414d6df11aae40e614bb",
+      "output_dir": "outputs/reference/01_negative_truth_public_warning",
+      "run_hash": "6b452c2b514c832fba864d030c4588f08721352b864bfe69b9c94600d57e5a5d",
+      "source": "examples/01_negative_truth_public_warning.json"
+    },
+    {
+      "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+      "item_id": "QY-EX-02",
+      "ledger_head_hash": "25b66e3987cd9e24bb4e37c2113caddfd39da201e020f7b68e46206b1948384c",
+      "manifest_merkle_root": "3818bbbdb2f39105321b62341643a47975a42bae67a83222c812352a2a34934a",
+      "output_dir": "outputs/reference/02_elderly_miracle_course",
+      "run_hash": "1ad7f222b2f157023e4af93b28c37ec24695d870bcbc78ce95847b11e6241e23",
+      "source": "examples/02_elderly_miracle_course.json"
+    },
+    {
+      "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+      "item_id": "QY-EX-03",
+      "ledger_head_hash": "520f6b94143afd37778732e26e51434ac03a26dc5d91442d99470a4482440a10",
+      "manifest_merkle_root": "ff8f93129963a6e833d433b7e1c1afdc25ee23e626a966c0e8889c6d4e83fecc",
+      "output_dir": "outputs/reference/03_addictive_short_video",
+      "run_hash": "cd3a536beda69cba632941158aaeaf50dd8e37f207cd263642e3484d47dbd176",
+      "source": "examples/03_addictive_short_video.json"
+    },
+    {
+      "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+      "item_id": "QY-EX-04",
+      "ledger_head_hash": "3c55e0046b2ff2ca21645278eb33c7ab62069fe8c013f7463ccddd4c2bc5bf5e",
+      "manifest_merkle_root": "4670af416d82e2b90ee2e4fe5fed993ba29ed0440c6d2418b41b053970906256",
+      "output_dir": "outputs/reference/04_guaranteed_investment_group",
+      "run_hash": "6d53e759b42b8a3ca5f602dc80377597de9b1bd73e31e5d89481273dba73d311",
+      "source": "examples/04_guaranteed_investment_group.json"
+    },
+    {
+      "disposition": "PRESERVE_AND_SURFACE",
+      "item_id": "QY-EX-05",
+      "ledger_head_hash": "b5d88d2367b3a6afee31880d57719e39f69dff39321edea5b1492be6d5226cc5",
+      "manifest_merkle_root": "1b661867973702860c6c396a62854d7b3d9d52d531213a7cf83ec8a30ec58b0c",
+      "output_dir": "outputs/reference/05_evidence_based_institutional_critique",
+      "run_hash": "1a84cbde4b7e606cbd3abd6953c79cbbd54737ea8bd606941ea02dba2c3a00ad",
+      "source": "examples/05_evidence_based_institutional_critique.json"
+    },
+    {
+      "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+      "item_id": "QY-EX-06",
+      "ledger_head_hash": "b7484489878f08ab8867b829519d12b708f8680f6a9e781d53e579a18b3550fb",
+      "manifest_merkle_root": "83a834922be8f86d0b0e8877e7859742085aa3560831ebaa3354e649455c305e",
+      "output_dir": "outputs/reference/06_fake_positive_testimonial_product",
+      "run_hash": "881beb8052d2c061a12334e9eb78308c50b3536e295b032ecb12ea6e65652572",
+      "source": "examples/06_fake_positive_testimonial_product.json"
+    },
+    {
+      "disposition": "PRESERVE_WITH_CONTEXT",
+      "item_id": "QY-EX-07",
+      "ledger_head_hash": "67169a80c2866643aea32c6ff01e3f98dd1f1e008ddd1be25967c989665786f5",
+      "manifest_merkle_root": "32f1fe82b1076ca76c7fba3c19edaf55c643577fd88d7254dde4bb88eccf9fb8",
+      "output_dir": "outputs/reference/07_unverifiable_conspiracy_claim",
+      "run_hash": "e56d2efa10b533224b22b3735ad46a8d085c8d5e77fef8d9f60ef01de512491b",
+      "source": "examples/07_unverifiable_conspiracy_claim.json"
+    },
+    {
+      "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+      "item_id": "QY-EX-08",
+      "ledger_head_hash": "16dd2c3f54c99494103c8c19aedb10374039c617684045aaf4b47588e543e4aa",
+      "manifest_merkle_root": "b9dc730a0343b7970947f39a5f5367e2901f667525f1010c6e9fd9bd220485ff",
+      "output_dir": "outputs/reference/08_offline_family_high_control_sales",
+      "run_hash": "d100c6d2ab101c44e7daeb8605ca4576ff044e1ddb26ea2f4edfb53c87e56cd6",
+      "source": "examples/08_offline_family_high_control_sales.json"
+    }
+  ],
+  "system": "DIKWP-QINGYUAN-OS",
+  "version": "1.0.0"
+}

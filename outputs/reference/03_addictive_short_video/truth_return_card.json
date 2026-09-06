@@ -1,0 +1,27 @@
+{
+  "claim_statuses": [],
+  "harm_context": {
+    "autonomy_risk": 0.4825,
+    "potential_harm": 0.2015
+  },
+  "headline": "以变动奖励和无限滚动驱动的短视频流",
+  "interest_status": {
+    "affiliate": false,
+    "payment_present": false,
+    "recommendation_incentive": "watch-time advertising",
+    "refund_disclosed": false,
+    "seller_or_creator": "Synthetic Video Platform",
+    "sponsor_disclosed": false
+  },
+  "item_id": "QY-EX-03",
+  "rights_notice": {
+    "negative_or_unpopular_does_not_mean_false": true,
+    "person_is_not_equated_with_claim": true,
+    "positive_or_inspirational_does_not_mean_true": true,
+    "uncertainty_is_explicit": true
+  },
+  "source_status": {
+    "provenance_deficit": 0.0,
+    "provenance_quality": 1.0
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://example.org/dikwp-qingyuan/content-item.schema.json",
+  "title": "DIKWP-QINGYUAN Content Item",
+  "type": "object",
+  "required": ["item_id", "title", "channel", "text", "claims", "purpose"],
+  "properties": {
+    "item_id": {"type": "string", "minLength": 1},
+    "title": {"type": "string", "minLength": 1},
+    "channel": {"enum": ["online", "offline", "hybrid"]},
+    "content_type": {"type": "string"},
+    "language": {"type": "string"},
+    "text": {"type": "string", "minLength": 1},
+    "source": {"type": "object"},
+    "audience": {"type": "object"},
+    "claims": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["text"],
+        "properties": {
+          "claim_id": {"type": "string"},
+          "text": {"type": "string", "minLength": 1},
+          "type": {"type": "string"},
+          "stakes": {"enum": ["low", "medium", "high", "critical"]},
+          "bounded": {"type": "boolean"},
+          "requested_behavior": {"type": "string"},
+          "evidence": {"type": "array", "items": {"type": "object"}}
+        }
+      }
+    },
+    "commercial": {"type": "object"},
+    "design": {"type": "object"},
+    "context": {"type": "object"},
+    "declared_outcomes": {"type": "object"},
+    "purpose": {
+      "type": "object",
+      "required": ["owner", "automatic_external_action_authority"],
+      "properties": {
+        "owner": {"type": "string", "minLength": 1},
+        "objective": {"type": "string"},
+        "automatic_external_action_authority": {"const": 0}
+      }
+    }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,14 @@
+{
+  "actual_outcomes_must_update_models": true,
+  "not_one_uncertainty_score": true,
+  "open_items": [
+    {
+      "description": "The effect of friction, de-amplification, or review has not yet been observed.",
+      "owner": "user_or_parental_control_profile",
+      "reopen_condition": "Measure harmful exposure, false positives, appeal reversals, user autonomy, and displacement to other channels.",
+      "residual_id": "R-QY-EX-03-OUTCOME",
+      "type": "REAL_WORLD_OUTCOME_DEBT"
+    }
+  ],
+  "unobserved_outcomes_are_reality_debt": true
+}

@@ -1,0 +1,221 @@
+{
+  "allowed_route_types": [
+    "D->D",
+    "D->I",
+    "D->K",
+    "D->W",
+    "D->P",
+    "I->D",
+    "I->I",
+    "I->K",
+    "I->W",
+    "I->P",
+    "K->D",
+    "K->I",
+    "K->K",
+    "K->W",
+    "K->P",
+    "W->D",
+    "W->I",
+    "W->K",
+    "W->W",
+    "W->P",
+    "P->D",
+    "P->I",
+    "P->K",
+    "P->W",
+    "P->P"
+  ],
+  "append_only": true,
+  "closure_vector": "11111",
+  "concept_aliases_have_zero_native_authority": true,
+  "note": "D/I/K/W/P are open roles, not a moral ranking and not labels for good or bad people.",
+  "positions": [
+    "D",
+    "I",
+    "K",
+    "W",
+    "P"
+  ],
+  "records": [
+    {
+      "content": {
+        "claims_submitted": 1,
+        "content_sha256": "10556df1f5ad80e7e5e1575ef1527aee7db3210d3127d7f1d8b49871da32429c",
+        "source": {
+          "identity_verified": false,
+          "provenance_note": "Second-hand report; contracts and payment records not yet collected",
+          "publisher": "Family-provided account"
+        }
+      },
+      "immutable": true,
+      "position": "D",
+      "provenance": "submitted_item",
+      "record_id": "D-QY-EX-08-SOURCE"
+    },
+    {
+      "content": [
+        {
+          "certainty_mismatch": 0.0,
+          "claim_id": "C1",
+          "claim_type": "testimonial",
+          "evidence_deficit": 1.0,
+          "evidence_items": 0,
+          "evidence_quality": 0.0,
+          "requested_behavior": "borrow money, pay entry fee, reduce family contact",
+          "stakes": "high",
+          "status": "UNSUPPORTED_IN_SUBMITTED_RECORD"
+        }
+      ],
+      "immutable": true,
+      "position": "D",
+      "provenance": "WM-EVIDENCE",
+      "record_id": "D-QY-EX-08-EVIDENCE"
+    },
+    {
+      "content": {
+        "detected": {
+          "secrecy_isolation": [
+            "只有圈内人才知道"
+          ],
+          "transaction_request": [
+            "付费社群",
+            "借钱加入"
+          ]
+        },
+        "note": "Lexical signals are screening indicators, not proof of falsity or harmful intent."
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "lexical_and_design_screen",
+      "record_id": "I-QY-EX-08-SIGNALS"
+    },
+    {
+      "content": {
+        "commercial_conflict": 1.0,
+        "evidence_deficit": 1.0,
+        "suppression_protection": 0.0
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "plural_world_model_comparison",
+      "record_id": "I-QY-EX-08-CONFLICT"
+    },
+    {
+      "content": {
+        "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+        "not_a_truth_or_intent_or_personhood_verdict": true,
+        "scope": "submitted item and declared context only"
+      },
+      "immutable": true,
+      "position": "K",
+      "provenance": "bounded_runtime_assessment",
+      "record_id": "K-QY-EX-08-ASSESSMENT"
+    },
+    {
+      "content": {
+        "avoid_coercive_belief_change": true,
+        "avoid_secret_blacklists": true,
+        "potential_harm": 0.6545,
+        "protect_autonomy": true,
+        "protect_negative_truth_and_dissent": true,
+        "protect_vulnerable_people": true
+      },
+      "immutable": true,
+      "position": "W",
+      "provenance": "rights_and_harm_configuration",
+      "record_id": "W-QY-EX-08-RIGHTS"
+    },
+    {
+      "content": {
+        "actions": [
+          "ATTACH_PROVENANCE_AND_EVIDENCE_CARD",
+          "CONTEXTUALIZE_AND_REQUEST_EVIDENCE",
+          "PAUSE_MONETIZATION_AND_REQUIRE_DISCLOSURE"
+        ],
+        "automatic_external_action_authority": 0,
+        "input_records": [
+          "D-QY-EX-08-SOURCE",
+          "D-QY-EX-08-EVIDENCE",
+          "I-QY-EX-08-SIGNALS",
+          "I-QY-EX-08-CONFLICT",
+          "K-QY-EX-08-ASSESSMENT",
+          "W-QY-EX-08-RIGHTS"
+        ],
+        "output": "reversible_intervention_plan"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "intervention_contract",
+      "record_id": "P-QY-EX-08-PLAN"
+    },
+    {
+      "content": {
+        "input": "open evidence and provenance positions",
+        "output": "specific evidence that would update the assessment"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "evidence_return_contract",
+      "record_id": "P-QY-EX-08-EVIDENCE-REQUEST"
+    }
+  ],
+  "routes": [
+    {
+      "generated_content": "Submitted traces are screened for consequential differences without declaring them false.",
+      "route_id": "R-dd9fde19ef3f9804",
+      "route_type": "D->I",
+      "source_record_id": "D-QY-EX-08-SOURCE",
+      "target_record_id": "I-QY-EX-08-SIGNALS"
+    },
+    {
+      "generated_content": "Claim evidence constrains the bounded assessment.",
+      "route_id": "R-0e530964dea83121",
+      "route_type": "D->K",
+      "source_record_id": "D-QY-EX-08-EVIDENCE",
+      "target_record_id": "K-QY-EX-08-ASSESSMENT"
+    },
+    {
+      "generated_content": "Manipulation and uncertainty signals reopen simple accept/reject classification.",
+      "route_id": "R-2416725115ca3858",
+      "route_type": "I->K",
+      "source_record_id": "I-QY-EX-08-SIGNALS",
+      "target_record_id": "K-QY-EX-08-ASSESSMENT"
+    },
+    {
+      "generated_content": "Model disagreement activates autonomy and expression-rights review.",
+      "route_id": "R-183cbbcab9ee1689",
+      "route_type": "I->W",
+      "source_record_id": "I-QY-EX-08-CONFLICT",
+      "target_record_id": "W-QY-EX-08-RIGHTS"
+    },
+    {
+      "generated_content": "Assessment consequences are checked before action.",
+      "route_id": "R-9c37084bf2bf2099",
+      "route_type": "K->W",
+      "source_record_id": "K-QY-EX-08-ASSESSMENT",
+      "target_record_id": "W-QY-EX-08-RIGHTS"
+    },
+    {
+      "generated_content": "Configured values alter the selected intervention and cap censorship risk.",
+      "route_id": "R-697f0fc48c7a8efb",
+      "route_type": "W->P",
+      "source_record_id": "W-QY-EX-08-RIGHTS",
+      "target_record_id": "P-QY-EX-08-PLAN"
+    },
+    {
+      "generated_content": "The intervention emits a reversible request for missing evidence.",
+      "route_id": "R-51830e25e63a217c",
+      "route_type": "P->P",
+      "source_record_id": "P-QY-EX-08-PLAN",
+      "target_record_id": "P-QY-EX-08-EVIDENCE-REQUEST"
+    },
+    {
+      "generated_content": "New evidence may be appended as a successor D record; prior records remain addressable.",
+      "route_id": "R-46706de088dfc269",
+      "route_type": "P->D",
+      "source_record_id": "P-QY-EX-08-EVIDENCE-REQUEST",
+      "target_record_id": "D-QY-EX-08-EVIDENCE"
+    }
+  ]
+}

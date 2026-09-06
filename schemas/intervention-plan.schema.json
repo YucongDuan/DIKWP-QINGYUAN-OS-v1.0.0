@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIKWP-QINGYUAN Intervention Plan",
+  "type": "object",
+  "required": ["disposition", "actions", "decision_logic", "rights_firewall"],
+  "properties": {
+    "disposition": {"type": "string"},
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["action_id", "level", "action_type", "owner", "reversible", "appeal_available", "automatic_execution"],
+        "properties": {
+          "automatic_execution": {"const": false},
+          "appeal_available": {"const": true}
+        }
+      }
+    },
+    "decision_logic": {
+      "type": "object",
+      "properties": {
+        "aggregate_score_used": {"const": false},
+        "automatic_deletion": {"const": false},
+        "automatic_external_action_authority": {"const": 0}
+      }
+    }
+  }
+}

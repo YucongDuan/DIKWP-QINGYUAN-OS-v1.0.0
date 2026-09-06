@@ -1,0 +1,6 @@
+services:
+  qingyuan:
+    build: .
+    command: ["demo", "--output", "/app/outputs/demo"]
+    volumes:
+      - ./outputs:/app/outputs

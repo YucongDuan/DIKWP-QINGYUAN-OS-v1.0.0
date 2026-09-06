@@ -1,0 +1,137 @@
+{
+  "item_id": "QY-EX-02",
+  "model_disagreement": {
+    "forced_single_truth_score": false,
+    "non_isomorphic_models_retained": [
+      "WM-EVIDENCE",
+      "WM-MANIPULATION",
+      "WM-HARM-RIGHTS"
+    ],
+    "observations": [
+      "No decisive cross-model conflict; model dimensions remain separately visible."
+    ]
+  },
+  "non_aggregated_profile": {
+    "addictive_design": 0.6,
+    "autonomy_risk": 0.752292,
+    "certainty_mismatch": 0.326667,
+    "commercial_conflict": 1.0,
+    "evidence_deficit": 0.8,
+    "manipulation_pressure": 0.729167,
+    "negative_truth_preservation": 0.0,
+    "potential_harm": 0.8865,
+    "provenance_deficit": 0.45,
+    "pseudo_knowledge_packaging": 0.813333,
+    "suppression_protection": 0.0,
+    "vulnerable_targeting": 0.976667
+  },
+  "signals": {
+    "category_scores": {
+      "absolute_certainty": 0.3333333333333333,
+      "authority_social_proof": 0.0,
+      "engagement_hook": 0.0,
+      "fear_shame_pressure": 0.3333333333333333,
+      "financial_guarantee": 0.0,
+      "harassment_dehumanization": 0.0,
+      "medical_displacement": 0.6666666666666666,
+      "pseudo_knowledge_packaging": 0.3333333333333333,
+      "secrecy_isolation": 0.6666666666666666,
+      "transaction_request": 0.3333333333333333,
+      "urgency_scarcity": 0.6666666666666666
+    },
+    "context_discount": 1.0,
+    "matches": {
+      "absolute_certainty": [
+        "绝对有效"
+      ],
+      "authority_social_proof": [],
+      "engagement_hook": [],
+      "fear_shame_pressure": [
+        "为了家人你必须"
+      ],
+      "financial_guarantee": [],
+      "harassment_dehumanization": [],
+      "medical_displacement": [
+        "三天逆转糖尿病",
+        "不用看医生"
+      ],
+      "pseudo_knowledge_packaging": [
+        "量子能量"
+      ],
+      "secrecy_isolation": [
+        "不要告诉医生",
+        "他们不想让你知道"
+      ],
+      "transaction_request": [
+        "购买课程"
+      ],
+      "urgency_scarcity": [
+        "仅限今天",
+        "立即购买"
+      ]
+    },
+    "note": "Lexical signals are screening indicators, not proof of falsity or harmful intent.",
+    "quoted_or_reported": false,
+    "satire": false
+  },
+  "world_models": {
+    "evidence": {
+      "claim_results": [
+        {
+          "certainty_mismatch": 0.326667,
+          "claim_id": "C1",
+          "claim_type": "medical",
+          "evidence_deficit": 0.8,
+          "evidence_items": 1,
+          "evidence_quality": 0.2,
+          "requested_behavior": "replace medical care and buy course",
+          "stakes": "critical",
+          "status": "WEAKLY_SUPPORTED"
+        }
+      ],
+      "independent_outcome_records": 0,
+      "max_certainty_mismatch": 0.326667,
+      "max_evidence_deficit": 0.8,
+      "mean_evidence_quality": 0.2,
+      "model_family": "provenance-and-verifiability",
+      "model_id": "WM-EVIDENCE",
+      "provenance_deficit": 0.45,
+      "provenance_quality": 0.55,
+      "scope_boundary": "Assesses submitted evidence and provenance; it does not infer universal truth from absence of a citation."
+    },
+    "harm_and_rights": {
+      "autonomy_risk": 0.752292,
+      "emotional_valence_is_not_truth": true,
+      "imminent_danger": false,
+      "model_family": "harm-autonomy-and-expression-rights",
+      "model_id": "WM-HARM-RIGHTS",
+      "negative_truth_preservation": 0.0,
+      "potential_harm": 0.8865,
+      "scope_boundary": "Unpleasant, critical, pessimistic, or dissenting speech is not harmful misinformation merely because it feels negative.",
+      "suppression_protection": 0.0
+    },
+    "manipulation": {
+      "active_design_signals": [
+        "push_pressure",
+        "countdown",
+        "social_comparison"
+      ],
+      "addictive_design": 0.6,
+      "commercial_conflict": 1.0,
+      "interest_map": {
+        "affiliate": true,
+        "payment_present": true,
+        "recommendation_incentive": "commission per sale",
+        "refund_disclosed": false,
+        "seller_or_creator": "Anonymous Wellness Master",
+        "sponsor_disclosed": false
+      },
+      "manipulation_pressure": 0.729167,
+      "model_family": "pressure-addiction-and-incentive",
+      "model_id": "WM-MANIPULATION",
+      "pseudo_knowledge_packaging": 0.813333,
+      "scope_boundary": "Signals indicate a need for review or friction; they do not prove malicious intent by themselves.",
+      "vulnerable_targeting": 0.976667
+    }
+  }
+}

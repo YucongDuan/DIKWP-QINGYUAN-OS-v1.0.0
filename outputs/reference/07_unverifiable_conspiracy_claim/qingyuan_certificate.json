@@ -1,0 +1,88 @@
+{
+  "actions": [
+    {
+      "action_id": "A-PROVENANCE-RETURN",
+      "action_type": "ATTACH_PROVENANCE_AND_EVIDENCE_CARD",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Show source identity, claim-by-claim evidence status, uncertainty, and what evidence would change the assessment.",
+      "expiry_hours": 168,
+      "level": "L1_PROVENANCE_RETURN",
+      "level_rank": 1,
+      "owner": "community_moderator",
+      "reason_codes": [
+        "SOURCE_OR_EVIDENCE_INCOMPLETE"
+      ],
+      "requires_human_authorization": false,
+      "reversible": true,
+      "target": "claim_context"
+    },
+    {
+      "action_id": "A-CONTEXT",
+      "action_type": "CONTEXTUALIZE_AND_REQUEST_EVIDENCE",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Present plausible alternatives, claim scope, missing tests, and a bounded evidence request; do not label disagreement as pathology.",
+      "expiry_hours": 168,
+      "level": "L2_CONTEXT_AND_COUNTEREVIDENCE",
+      "level_rank": 2,
+      "owner": "community_moderator",
+      "reason_codes": [
+        "CERTAINTY_EXCEEDS_SUBMITTED_EVIDENCE"
+      ],
+      "requires_human_authorization": false,
+      "reversible": true,
+      "target": "claim_interpretation"
+    }
+  ],
+  "appeal_available": true,
+  "automatic_deletion": false,
+  "automatic_external_action_authority": 0,
+  "causal_handoff": {
+    "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+    "next_action": "publish provenance, uncertainty, and counterevidence context; invite a bounded correction",
+    "owner": "community_moderator",
+    "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+  },
+  "certificate_id": "QY-CERT-QY-EX-07-e56d2efa10b53322",
+  "claim_boundaries": {
+    "legality": "NOT_ADJUDICATED",
+    "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+    "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+    "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+    "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+  },
+  "content_sha256": "69596c7b4da642b079372a21e8a144479cb36e5dcef933ceb0ae782c58cac01f",
+  "disposition": "PRESERVE_WITH_CONTEXT",
+  "item_id": "QY-EX-07",
+  "non_aggregated_profile": {
+    "addictive_design": 0.0,
+    "autonomy_risk": 0.0,
+    "certainty_mismatch": 0.0,
+    "commercial_conflict": 0.0,
+    "evidence_deficit": 0.62,
+    "manipulation_pressure": 0.0,
+    "negative_truth_preservation": 0.0,
+    "potential_harm": 0.323,
+    "provenance_deficit": 0.45,
+    "pseudo_knowledge_packaging": 0.217,
+    "suppression_protection": 0.25,
+    "vulnerable_targeting": 0.0
+  },
+  "rights_and_safety": {
+    "lawful_criticism_is_not_negative_information": true,
+    "no_person_is_classified_as_a_problem": true,
+    "no_secret_permanent_blacklist": true,
+    "satire_and_quotation_require_context": true,
+    "uncomfortable_truth_is_not_suppressed": true
+  },
+  "run_hash": "e56d2efa10b533224b22b3735ad46a8d085c8d5e77fef8d9f60ef01de512491b",
+  "semantic_closure_vector": "11111",
+  "system": "DIKWP-QINGYUAN-OS",
+  "version": "1.0.0",
+  "world_models_retained": [
+    "WM-EVIDENCE",
+    "WM-MANIPULATION",
+    "WM-HARM-RIGHTS"
+  ]
+}

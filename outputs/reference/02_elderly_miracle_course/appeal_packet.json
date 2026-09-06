@@ -1,0 +1,28 @@
+{
+  "appeal_available": true,
+  "current_disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+  "grounds": [
+    "source identity or provenance was misread",
+    "evidence was omitted or incorrectly weighted",
+    "quotation, satire, criticism, or public-interest context was missed",
+    "audience vulnerability or commercial relationship was inferred incorrectly",
+    "the proposed action is disproportionate or not the least restrictive option"
+  ],
+  "item_id": "QY-EX-02",
+  "no_retaliation_for_appeal": true,
+  "no_secret_permanent_blacklist": true,
+  "required_review": {
+    "access_to_submitted_record": true,
+    "claim_level_reasons": true,
+    "independent_reviewer": true,
+    "response_due_hours": 72,
+    "temporary_action_expiry": true
+  },
+  "update_inputs": [
+    {
+      "claim_id": "C1",
+      "current_status": "WEAKLY_SUPPORTED",
+      "evidence_needed": "stable independent evidence or a correction to the claim scope"
+    }
+  ]
+}

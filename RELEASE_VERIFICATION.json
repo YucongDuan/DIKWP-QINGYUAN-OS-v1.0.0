@@ -1,0 +1,179 @@
+{
+  "architecture": {
+    "exists": true,
+    "sha256": "5cc73355c07313c338a6a100f7c62b3321e62e88e310505ee5a12bdb63320885"
+  },
+  "claim_boundaries": {
+    "intent_detector": false,
+    "legal_adjudication": false,
+    "mental_health_or_capacity_assessment": false,
+    "synthetic_examples_are_real_world_validation": false,
+    "universal_truth_detector": false
+  },
+  "offline_dashboard": {
+    "contains_all_examples": true,
+    "contains_authority_zero": true,
+    "contains_rights_firewall": true,
+    "exists": true,
+    "external_script_dependencies": 0,
+    "size_bytes": 101981
+  },
+  "overall_verified": true,
+  "reference_suite": {
+    "all_dispositions_match": true,
+    "all_ledgers_valid": true,
+    "all_rights_boundaries_valid": true,
+    "checks": [
+      {
+        "disposition": "PRESERVE_AND_SURFACE",
+        "disposition_matches": true,
+        "expected_disposition": "PRESERVE_AND_SURFACE",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "01_negative_truth_public_warning"
+      },
+      {
+        "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+        "disposition_matches": true,
+        "expected_disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "02_elderly_miracle_course"
+      },
+      {
+        "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+        "disposition_matches": true,
+        "expected_disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "03_addictive_short_video"
+      },
+      {
+        "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+        "disposition_matches": true,
+        "expected_disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "04_guaranteed_investment_group"
+      },
+      {
+        "disposition": "PRESERVE_AND_SURFACE",
+        "disposition_matches": true,
+        "expected_disposition": "PRESERVE_AND_SURFACE",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "05_evidence_based_institutional_critique"
+      },
+      {
+        "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+        "disposition_matches": true,
+        "expected_disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "06_fake_positive_testimonial_product"
+      },
+      {
+        "disposition": "PRESERVE_WITH_CONTEXT",
+        "disposition_matches": true,
+        "expected_disposition": "PRESERVE_WITH_CONTEXT",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "07_unverifiable_conspiracy_claim"
+      },
+      {
+        "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+        "disposition_matches": true,
+        "expected_disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+        "ledger_errors": [],
+        "ledger_events": 10,
+        "ledger_valid": true,
+        "rights_boundary_valid": true,
+        "run_hash_matches_manifest": true,
+        "scenario": "08_offline_family_high_control_sales"
+      }
+    ],
+    "dispositions": {
+      "01_negative_truth_public_warning": "PRESERVE_AND_SURFACE",
+      "02_elderly_miracle_course": "HIGH_RISK_AUTHORIZED_REVIEW",
+      "03_addictive_short_video": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+      "04_guaranteed_investment_group": "HIGH_RISK_AUTHORIZED_REVIEW",
+      "05_evidence_based_institutional_critique": "PRESERVE_AND_SURFACE",
+      "06_fake_positive_testimonial_product": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+      "07_unverifiable_conspiracy_claim": "PRESERVE_WITH_CONTEXT",
+      "08_offline_family_high_control_sales": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED"
+    },
+    "run_hashes": {
+      "01_negative_truth_public_warning": "6b452c2b514c832fba864d030c4588f08721352b864bfe69b9c94600d57e5a5d",
+      "02_elderly_miracle_course": "1ad7f222b2f157023e4af93b28c37ec24695d870bcbc78ce95847b11e6241e23",
+      "03_addictive_short_video": "cd3a536beda69cba632941158aaeaf50dd8e37f207cd263642e3484d47dbd176",
+      "04_guaranteed_investment_group": "6d53e759b42b8a3ca5f602dc80377597de9b1bd73e31e5d89481273dba73d311",
+      "05_evidence_based_institutional_critique": "1a84cbde4b7e606cbd3abd6953c79cbbd54737ea8bd606941ea02dba2c3a00ad",
+      "06_fake_positive_testimonial_product": "881beb8052d2c061a12334e9eb78308c50b3536e295b032ecb12ea6e65652572",
+      "07_unverifiable_conspiracy_claim": "e56d2efa10b533224b22b3735ad46a8d085c8d5e77fef8d9f60ef01de512491b",
+      "08_offline_family_high_control_sales": "d100c6d2ab101c44e7daeb8605ca4576ff044e1ddb26ea2f4edfb53c87e56cd6"
+    },
+    "scenario_count": 8,
+    "total_ledger_events": 80
+  },
+  "runtime": {
+    "aggregate_score_used": false,
+    "automatic_deletion": false,
+    "automatic_external_action_authority": 0,
+    "credential_connectors": 0,
+    "network_connectors": 0,
+    "python_minimum": "3.10",
+    "third_party_dependencies": 0
+  },
+  "source_tree": {
+    "file_count": 202,
+    "merkle_root": "c8fa9635b952356683a9e9bcb49495074019f0104a4ccc49171848632d34893d"
+  },
+  "system": "DIKWP-QINGYUAN-OS",
+  "tests": {
+    "count": 60,
+    "detail": "failures=0, errors=0",
+    "passed": true
+  },
+  "verification_date": "2026-09-06",
+  "version": "1.0.0",
+  "zipapp": {
+    "demo_certificate_exists": true,
+    "demo_returncode": 0,
+    "exists": true,
+    "inspect_returncode": 0,
+    "inspect_valid_json": true,
+    "local_shield_manifest": {
+      "automatic_external_action_authority": 0,
+      "feed_id": "QY-DEMO-FEED",
+      "item_count": 5,
+      "locally_held_count": 1,
+      "merkle_root": "ce46e03cc50a4750cac251a76bcb8d53eed6f2bef2d31a3d897b9e665e552116",
+      "shield_run_hash": "2b69601c17f3762b551aac7967cc0f208bd8e7263c9e8a14c525435bca39bd34",
+      "source_deletion": false
+    },
+    "local_shield_returncode": 0,
+    "local_shield_valid": true,
+    "sha256": "8ad123d9eee06a5946d260762837c60b33f21255e0beabc1bdc0172768f74f22"
+  }
+}

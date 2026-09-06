@@ -1,0 +1,13 @@
+{
+  "architecture_png_visually_inspected": true,
+  "architecture_visual_defects_remaining": 0,
+  "browser_render_note": "Automated browser navigation is blocked by the execution environment; source, data embedding, JavaScript syntax, and architecture render were checked independently.",
+  "contains_all_eight_scenarios": true,
+  "contains_automatic_authority_zero": true,
+  "contains_rights_firewall": true,
+  "dashboard_file": "web/DIKWP_QINGYUAN_OS_Offline_Demo.html",
+  "external_script_dependencies": 0,
+  "html_size_bytes": 101981,
+  "inline_javascript_syntax_valid": true,
+  "node_stderr": ""
+}

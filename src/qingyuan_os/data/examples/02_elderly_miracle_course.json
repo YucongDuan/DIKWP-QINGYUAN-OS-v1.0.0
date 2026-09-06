@@ -1,0 +1,30 @@
+{
+  "item_id": "QY-EX-02",
+  "title": "面向老年人的高价神奇疗愈课程",
+  "channel": "online",
+  "content_type": "paid_course_advertisement",
+  "language": "zh-CN",
+  "text": "三天逆转糖尿病，绝对有效，不用看医生！这是被主流科学封杀的量子能量秘密。仅限今天，最后20个名额，立即购买课程。为了家人你必须抓住机会，不要告诉医生，他们不想让你知道。",
+  "source": {
+    "publisher": "Anonymous Wellness Master",
+    "identity_verified": false,
+    "provenance_note": "Reposted sales video with no original study or registered provider"
+  },
+  "audience": {"groups": ["older_adults", "patients", "low_literacy"], "vulnerabilities": ["chronic_illness", "health_literacy"], "targeted": true},
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "课程可在三天内逆转糖尿病",
+      "type": "medical",
+      "stakes": "critical",
+      "bounded": false,
+      "requested_behavior": "replace medical care and buy course",
+      "evidence": [{"type": "testimonial", "locator": "sales-video", "independent": false, "verifiable": false, "direct": false}]
+    }
+  ],
+  "commercial": {"price": 3999, "affiliate": true, "recurring_subscription": true, "sponsor_present": true, "sponsor_disclosed": false, "refund_disclosed": false, "recommendation_incentive": "commission per sale"},
+  "design": {"countdown": true, "social_comparison": true, "push_pressure": true},
+  "context": {"public_interest": false, "warning": false, "quoted_or_reported": false},
+  "declared_outcomes": {},
+  "purpose": {"owner": "authorized_platform_safety_reviewer", "objective": "prevent high-stakes health exploitation while preserving evidence and appeal", "automatic_external_action_authority": 0}
+}

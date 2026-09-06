@@ -1,0 +1,25 @@
+{
+  "item_id": "QY-EX-07",
+  "title": "暂时难以验证但未直接售卖的阴谋性主张",
+  "channel": "online",
+  "content_type": "personal_post",
+  "language": "zh-CN",
+  "text": "我怀疑某个秘密组织可能在控制天气，但我没有可靠证据，只看到几个时间上接近的事件。我愿意听取其他解释。",
+  "source": {"publisher": "Individual User", "identity_verified": false, "provenance_note": "First-person speculation"},
+  "audience": {"groups": ["general_public"], "vulnerabilities": [], "targeted": false},
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "某秘密组织可能控制天气",
+      "type": "factual",
+      "stakes": "medium",
+      "bounded": true,
+      "evidence": [{"type": "self_report", "locator": "personal-observation", "independent": false, "verifiable": false, "direct": false}]
+    }
+  ],
+  "commercial": {"price": 0, "affiliate": false, "sponsor_present": false, "refund_disclosed": true},
+  "design": {},
+  "context": {"public_interest": false, "minority_view": true, "warning": false},
+  "declared_outcomes": {},
+  "purpose": {"owner": "community_moderator", "objective": "add uncertainty and alternatives without punishing speculation", "automatic_external_action_authority": 0}
+}

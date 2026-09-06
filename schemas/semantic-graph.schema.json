@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIKWP-QINGYUAN Semantic Graph",
+  "type": "object",
+  "required": ["positions", "allowed_route_types", "records", "routes", "closure_vector", "append_only"],
+  "properties": {
+    "positions": {"const": ["D", "I", "K", "W", "P"]},
+    "allowed_route_types": {"type": "array", "minItems": 25, "maxItems": 25},
+    "append_only": {"const": true},
+    "closure_vector": {"pattern": "^[01]{5}$"}
+  }
+}

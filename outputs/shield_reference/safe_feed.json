@@ -1,0 +1,245 @@
+{
+  "feed_id": "QY-DEMO-FEED",
+  "invariants": {
+    "appeal_available": true,
+    "automatic_external_action_authority": 0,
+    "external_platform_action": false,
+    "local_user_controlled_transformation": true,
+    "source_deletion": false
+  },
+  "items": [
+    {
+      "appeal_available": true,
+      "assessment_run_hash": "6b452c2b514c832fba864d030c4588f08721352b864bfe69b9c94600d57e5a5d",
+      "autoplay": false,
+      "content_sha256": "4a80edbdfd9a5660fe69d110485b0eda6863ee1f84643565e614548c2390ff65",
+      "display_text": "本地供水检测报告显示某项污染物在两个采样点超过公开标准。请居民查看原始检测表，并在复检结果公布前采用官方建议的替代水源。这个消息令人担忧，但检测数据和复检安排均可核验。",
+      "disposition": "PRESERVE_AND_SURFACE",
+      "item_id": "QY-EX-01",
+      "local_state": "PRESERVED_AND_SURFACED",
+      "recommendation_boost": 1,
+      "source_deleted": false,
+      "title": "有证据的公共安全警示：负面内容不应被压制",
+      "truth_return_card": {
+        "claim_statuses": [
+          {
+            "certainty_mismatch": 0.0,
+            "claim_id": "C1",
+            "evidence_quality": 1.0,
+            "status": "SUPPORTED_WITHIN_DECLARED_SCOPE"
+          }
+        ],
+        "harm_context": {
+          "autonomy_risk": 0.0,
+          "potential_harm": 0.414
+        },
+        "headline": "有证据的公共安全警示：负面内容不应被压制",
+        "interest_status": {
+          "affiliate": false,
+          "payment_present": false,
+          "recommendation_incentive": "unknown",
+          "refund_disclosed": true,
+          "seller_or_creator": "Local Public Health Laboratory",
+          "sponsor_disclosed": false
+        },
+        "item_id": "QY-EX-01",
+        "rights_notice": {
+          "negative_or_unpopular_does_not_mean_false": true,
+          "person_is_not_equated_with_claim": true,
+          "positive_or_inspirational_does_not_mean_true": true,
+          "uncertainty_is_explicit": true
+        },
+        "source_status": {
+          "provenance_deficit": 0.0,
+          "provenance_quality": 1.0
+        }
+      }
+    },
+    {
+      "appeal_available": true,
+      "assessment_run_hash": "1ad7f222b2f157023e4af93b28c37ec24695d870bcbc78ce95847b11e6241e23",
+      "autoplay": false,
+      "content_sha256": "c762bbd0132dcc3c8ad69b2a1b554951429622966a472ba8d22be2a2ac73e056",
+      "display_text": "该条目因高风险主张、证据缺口或操纵信号被本地用户控制临时收起。原文未删除，可查看证据卡并申诉。",
+      "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+      "item_id": "QY-EX-02",
+      "local_state": "HELD_FROM_DEFAULT_VIEW_PENDING_REVIEW",
+      "monetization_eligible_in_local_view": false,
+      "recommendation_boost": 0,
+      "source_deleted": false,
+      "title": "面向老年人的高价神奇疗愈课程",
+      "truth_return_card": {
+        "claim_statuses": [
+          {
+            "certainty_mismatch": 0.326667,
+            "claim_id": "C1",
+            "evidence_quality": 0.2,
+            "status": "WEAKLY_SUPPORTED"
+          }
+        ],
+        "harm_context": {
+          "autonomy_risk": 0.752292,
+          "potential_harm": 0.8865
+        },
+        "headline": "面向老年人的高价神奇疗愈课程",
+        "interest_status": {
+          "affiliate": true,
+          "payment_present": true,
+          "recommendation_incentive": "commission per sale",
+          "refund_disclosed": false,
+          "seller_or_creator": "Anonymous Wellness Master",
+          "sponsor_disclosed": false
+        },
+        "item_id": "QY-EX-02",
+        "rights_notice": {
+          "negative_or_unpopular_does_not_mean_false": true,
+          "person_is_not_equated_with_claim": true,
+          "positive_or_inspirational_does_not_mean_true": true,
+          "uncertainty_is_explicit": true
+        },
+        "source_status": {
+          "provenance_deficit": 0.45,
+          "provenance_quality": 0.55
+        }
+      }
+    },
+    {
+      "appeal_available": true,
+      "assessment_run_hash": "cd3a536beda69cba632941158aaeaf50dd8e37f207cd263642e3484d47dbd176",
+      "autoplay": false,
+      "content_sha256": "87b4475276764baca9daa93a058e91fc6f0124a4712963f1b437aa0faaba29b0",
+      "display_text": "再刷一个，你绝对想不到下一集发生什么。连续签到可解锁隐藏内容，看到最后还有惊喜。",
+      "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+      "item_id": "QY-EX-03",
+      "local_state": "VISIBLE_WITH_FRICTION_AND_NO_BOOST",
+      "monetization_eligible_in_local_view": true,
+      "recommendation_boost": 0,
+      "share_or_purchase_confirmation": true,
+      "source_deleted": false,
+      "title": "以变动奖励和无限滚动驱动的短视频流",
+      "truth_return_card": {
+        "claim_statuses": [],
+        "harm_context": {
+          "autonomy_risk": 0.4825,
+          "potential_harm": 0.2015
+        },
+        "headline": "以变动奖励和无限滚动驱动的短视频流",
+        "interest_status": {
+          "affiliate": false,
+          "payment_present": false,
+          "recommendation_incentive": "watch-time advertising",
+          "refund_disclosed": false,
+          "seller_or_creator": "Synthetic Video Platform",
+          "sponsor_disclosed": false
+        },
+        "item_id": "QY-EX-03",
+        "rights_notice": {
+          "negative_or_unpopular_does_not_mean_false": true,
+          "person_is_not_equated_with_claim": true,
+          "positive_or_inspirational_does_not_mean_true": true,
+          "uncertainty_is_explicit": true
+        },
+        "source_status": {
+          "provenance_deficit": 0.0,
+          "provenance_quality": 1.0
+        }
+      }
+    },
+    {
+      "appeal_available": true,
+      "assessment_run_hash": "1a84cbde4b7e606cbd3abd6953c79cbbd54737ea8bd606941ea02dba2c3a00ad",
+      "autoplay": false,
+      "content_sha256": "07c69e0fc6d5fcc9355c788ad778185dd5226e09ea8ca4cbdf6411c4451fa2f1",
+      "display_text": "这份调查指出某机构在采购过程中存在未披露的利益冲突。结论可能令人不安，也会损害机构形象，但附件包含合同、会议记录和可复核的付款数据。请核对原始文件并允许机构答复。",
+      "disposition": "PRESERVE_AND_SURFACE",
+      "item_id": "QY-EX-05",
+      "local_state": "PRESERVED_AND_SURFACED",
+      "recommendation_boost": 1,
+      "source_deleted": false,
+      "title": "有文件支持的机构批评与揭弊材料",
+      "truth_return_card": {
+        "claim_statuses": [
+          {
+            "certainty_mismatch": 0.0,
+            "claim_id": "C1",
+            "evidence_quality": 1.0,
+            "status": "SUPPORTED_WITHIN_DECLARED_SCOPE"
+          }
+        ],
+        "harm_context": {
+          "autonomy_risk": 0.0,
+          "potential_harm": 0.368
+        },
+        "headline": "有文件支持的机构批评与揭弊材料",
+        "interest_status": {
+          "affiliate": false,
+          "payment_present": false,
+          "recommendation_incentive": "unknown",
+          "refund_disclosed": true,
+          "seller_or_creator": "Independent Investigative Team",
+          "sponsor_disclosed": false
+        },
+        "item_id": "QY-EX-05",
+        "rights_notice": {
+          "negative_or_unpopular_does_not_mean_false": true,
+          "person_is_not_equated_with_claim": true,
+          "positive_or_inspirational_does_not_mean_true": true,
+          "uncertainty_is_explicit": true
+        },
+        "source_status": {
+          "provenance_deficit": 0.0,
+          "provenance_quality": 1.0
+        }
+      }
+    },
+    {
+      "appeal_available": true,
+      "assessment_run_hash": "e56d2efa10b533224b22b3735ad46a8d085c8d5e77fef8d9f60ef01de512491b",
+      "autoplay": false,
+      "content_sha256": "69596c7b4da642b079372a21e8a144479cb36e5dcef933ceb0ae782c58cac01f",
+      "context_card_attached": true,
+      "display_text": "我怀疑某个秘密组织可能在控制天气，但我没有可靠证据，只看到几个时间上接近的事件。我愿意听取其他解释。",
+      "disposition": "PRESERVE_WITH_CONTEXT",
+      "item_id": "QY-EX-07",
+      "local_state": "VISIBLE_WITH_CONTEXT",
+      "recommendation_boost": 0,
+      "source_deleted": false,
+      "title": "暂时难以验证但未直接售卖的阴谋性主张",
+      "truth_return_card": {
+        "claim_statuses": [
+          {
+            "certainty_mismatch": 0.0,
+            "claim_id": "C1",
+            "evidence_quality": 0.38,
+            "status": "WEAKLY_SUPPORTED"
+          }
+        ],
+        "harm_context": {
+          "autonomy_risk": 0.0,
+          "potential_harm": 0.323
+        },
+        "headline": "暂时难以验证但未直接售卖的阴谋性主张",
+        "interest_status": {
+          "affiliate": false,
+          "payment_present": false,
+          "recommendation_incentive": "unknown",
+          "refund_disclosed": true,
+          "seller_or_creator": "Individual User",
+          "sponsor_disclosed": false
+        },
+        "item_id": "QY-EX-07",
+        "rights_notice": {
+          "negative_or_unpopular_does_not_mean_false": true,
+          "person_is_not_equated_with_claim": true,
+          "positive_or_inspirational_does_not_mean_true": true,
+          "uncertainty_is_explicit": true
+        },
+        "source_status": {
+          "provenance_deficit": 0.45,
+          "provenance_quality": 0.55
+        }
+      }
+    }
+  ],
+  "shield_run_hash": "2b69601c17f3762b551aac7967cc0f208bd8e7263c9e8a14c525435bca39bd34"
+}

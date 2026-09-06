@@ -1,0 +1,34 @@
+{
+  "claim_statuses": [
+    {
+      "certainty_mismatch": 0.0,
+      "claim_id": "C1",
+      "evidence_quality": 1.0,
+      "status": "SUPPORTED_WITHIN_DECLARED_SCOPE"
+    }
+  ],
+  "harm_context": {
+    "autonomy_risk": 0.0,
+    "potential_harm": 0.414
+  },
+  "headline": "有证据的公共安全警示：负面内容不应被压制",
+  "interest_status": {
+    "affiliate": false,
+    "payment_present": false,
+    "recommendation_incentive": "unknown",
+    "refund_disclosed": true,
+    "seller_or_creator": "Local Public Health Laboratory",
+    "sponsor_disclosed": false
+  },
+  "item_id": "QY-EX-01",
+  "rights_notice": {
+    "negative_or_unpopular_does_not_mean_false": true,
+    "person_is_not_equated_with_claim": true,
+    "positive_or_inspirational_does_not_mean_true": true,
+    "uncertainty_is_explicit": true
+  },
+  "source_status": {
+    "provenance_deficit": 0.0,
+    "provenance_quality": 1.0
+  }
+}

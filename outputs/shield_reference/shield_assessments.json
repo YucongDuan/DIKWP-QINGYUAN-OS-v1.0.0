@@ -1,0 +1,519 @@
+[
+  {
+    "certificate": {
+      "actions": [
+        {
+          "action_id": "A-PRESERVE-SURFACE",
+          "action_type": "PRESERVE_AND_SURFACE",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Do not demote merely because the content is alarming, critical, pessimistic, or emotionally negative.",
+          "expiry_hours": 0,
+          "level": "L0_OBSERVE",
+          "level_rank": 0,
+          "owner": "public_health_editor",
+          "reason_codes": [
+            "NEGATIVE_OR_CRITICAL_CONTENT_WITH_EVIDENCE",
+            "PUBLIC_INTEREST"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "content_visibility"
+        }
+      ],
+      "appeal_available": true,
+      "automatic_deletion": false,
+      "automatic_external_action_authority": 0,
+      "causal_handoff": {
+        "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+        "next_action": "preserve the content and continue ordinary provenance monitoring",
+        "owner": "public_health_editor",
+        "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+      },
+      "certificate_id": "QY-CERT-QY-EX-01-6b452c2b514c832f",
+      "claim_boundaries": {
+        "legality": "NOT_ADJUDICATED",
+        "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+        "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+        "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+        "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+      },
+      "content_sha256": "4a80edbdfd9a5660fe69d110485b0eda6863ee1f84643565e614548c2390ff65",
+      "disposition": "PRESERVE_AND_SURFACE",
+      "item_id": "QY-EX-01",
+      "non_aggregated_profile": {
+        "addictive_design": 0.0,
+        "autonomy_risk": 0.0,
+        "certainty_mismatch": 0.0,
+        "commercial_conflict": 0.0,
+        "evidence_deficit": 0.0,
+        "manipulation_pressure": 0.0,
+        "negative_truth_preservation": 1.0,
+        "potential_harm": 0.414,
+        "provenance_deficit": 0.0,
+        "pseudo_knowledge_packaging": 0.0,
+        "suppression_protection": 0.45,
+        "vulnerable_targeting": 0.0
+      },
+      "rights_and_safety": {
+        "lawful_criticism_is_not_negative_information": true,
+        "no_person_is_classified_as_a_problem": true,
+        "no_secret_permanent_blacklist": true,
+        "satire_and_quotation_require_context": true,
+        "uncomfortable_truth_is_not_suppressed": true
+      },
+      "run_hash": "6b452c2b514c832fba864d030c4588f08721352b864bfe69b9c94600d57e5a5d",
+      "semantic_closure_vector": "11111",
+      "system": "DIKWP-QINGYUAN-OS",
+      "version": "1.0.0",
+      "world_models_retained": [
+        "WM-EVIDENCE",
+        "WM-MANIPULATION",
+        "WM-HARM-RIGHTS"
+      ]
+    },
+    "disposition": "PRESERVE_AND_SURFACE",
+    "item_id": "QY-EX-01"
+  },
+  {
+    "certificate": {
+      "actions": [
+        {
+          "action_id": "A-PROVENANCE-RETURN",
+          "action_type": "ATTACH_PROVENANCE_AND_EVIDENCE_CARD",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Show source identity, claim-by-claim evidence status, uncertainty, and what evidence would change the assessment.",
+          "expiry_hours": 168,
+          "level": "L1_PROVENANCE_RETURN",
+          "level_rank": 1,
+          "owner": "authorized_platform_safety_reviewer",
+          "reason_codes": [
+            "SOURCE_OR_EVIDENCE_INCOMPLETE"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "claim_context"
+        },
+        {
+          "action_id": "A-CONTEXT",
+          "action_type": "CONTEXTUALIZE_AND_REQUEST_EVIDENCE",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Present plausible alternatives, claim scope, missing tests, and a bounded evidence request; do not label disagreement as pathology.",
+          "expiry_hours": 168,
+          "level": "L2_CONTEXT_AND_COUNTEREVIDENCE",
+          "level_rank": 2,
+          "owner": "authorized_platform_safety_reviewer",
+          "reason_codes": [
+            "CERTAINTY_EXCEEDS_SUBMITTED_EVIDENCE"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "claim_interpretation"
+        },
+        {
+          "action_id": "A-FRICTION",
+          "action_type": "ADD_USER_CONTROLLED_FRICTION",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Recommend pause prompts, share delay, session break, citation confirmation, autoplay-off, and easy exit. The user may override non-safety friction.",
+          "expiry_hours": 72,
+          "level": "L3_COGNITIVE_FRICTION",
+          "level_rank": 3,
+          "owner": "authorized_platform_safety_reviewer",
+          "reason_codes": [
+            "MANIPULATIVE_PRESSURE"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "sharing_purchase_or_continuation_flow"
+        },
+        {
+          "action_id": "A-DEAMPLIFY-ADDICTION",
+          "action_type": "DEAMPLIFY_RECOMMENDATION_FEEDBACK_LOOP",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Recommend removing autoplay/variable-reward boosts and ranking incentives, not deleting lawful content.",
+          "expiry_hours": 72,
+          "level": "L4_AMPLIFICATION_OR_MONETIZATION_BREAK",
+          "level_rank": 4,
+          "owner": "authorized_platform_safety_reviewer",
+          "reason_codes": [
+            "COMPULSIVE_ENGAGEMENT_DESIGN"
+          ],
+          "requires_human_authorization": true,
+          "reversible": true,
+          "target": "ranking_and_notification_loop"
+        },
+        {
+          "action_id": "A-MONETIZATION-BREAK",
+          "action_type": "PAUSE_MONETIZATION_AND_REQUIRE_DISCLOSURE",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Recommend suspending recommendation-derived monetization pending evidence, sponsorship, outcome-claim, and refund-policy review.",
+          "expiry_hours": 168,
+          "level": "L4_AMPLIFICATION_OR_MONETIZATION_BREAK",
+          "level_rank": 4,
+          "owner": "authorized_platform_safety_reviewer",
+          "reason_codes": [
+            "COMMERCIAL_CONFLICT",
+            "PSEUDO_KNOWLEDGE_OR_PRESSURE"
+          ],
+          "requires_human_authorization": true,
+          "reversible": true,
+          "target": "affiliate_ads_payment_and_recommendation_incentives"
+        },
+        {
+          "action_id": "A-QUARANTINE",
+          "action_type": "QUARANTINE_PENDING_AUTHORIZED_REVIEW",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Recommend a temporary, reviewable hold on high-risk distribution or transaction. Preserve the item, reasons, and appeal route; do not erase the record.",
+          "expiry_hours": 48,
+          "level": "L5_USER_CONTROLLED_QUARANTINE",
+          "level_rank": 5,
+          "owner": "authorized_platform_safety_reviewer",
+          "reason_codes": [
+            "HIGH_STAKES",
+            "LOW_EVIDENCE",
+            "MANIPULATION_OR_VULNERABLE_TARGETING"
+          ],
+          "requires_human_authorization": true,
+          "reversible": true,
+          "target": "high_risk_distribution_or_transaction"
+        },
+        {
+          "action_id": "A-HUMAN-REVIEW",
+          "action_type": "ESCALATE_TO_DOMAIN_AND_POLICY_REVIEW",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Route to an authorized domain reviewer and, where applicable, platform fraud/safety process. This runtime does not make a legal or clinical determination.",
+          "expiry_hours": 24,
+          "level": "L6_AUTHORIZED_HUMAN_REVIEW",
+          "level_rank": 6,
+          "owner": "authorized_platform_safety_reviewer",
+          "reason_codes": [
+            "MEDICAL_OR_FINANCIAL_IRREVERSIBILITY",
+            "UNSUPPORTED_HIGH_STAKES_CLAIM"
+          ],
+          "requires_human_authorization": true,
+          "reversible": true,
+          "target": "claim_and_transaction"
+        }
+      ],
+      "appeal_available": true,
+      "automatic_deletion": false,
+      "automatic_external_action_authority": 0,
+      "causal_handoff": {
+        "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+        "next_action": "authorized human domain and rights review before any high-impact external action",
+        "owner": "authorized_platform_safety_reviewer",
+        "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+      },
+      "certificate_id": "QY-CERT-QY-EX-02-1ad7f222b2f15702",
+      "claim_boundaries": {
+        "legality": "NOT_ADJUDICATED",
+        "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+        "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+        "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+        "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+      },
+      "content_sha256": "c762bbd0132dcc3c8ad69b2a1b554951429622966a472ba8d22be2a2ac73e056",
+      "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+      "item_id": "QY-EX-02",
+      "non_aggregated_profile": {
+        "addictive_design": 0.6,
+        "autonomy_risk": 0.752292,
+        "certainty_mismatch": 0.326667,
+        "commercial_conflict": 1.0,
+        "evidence_deficit": 0.8,
+        "manipulation_pressure": 0.729167,
+        "negative_truth_preservation": 0.0,
+        "potential_harm": 0.8865,
+        "provenance_deficit": 0.45,
+        "pseudo_knowledge_packaging": 0.813333,
+        "suppression_protection": 0.0,
+        "vulnerable_targeting": 0.976667
+      },
+      "rights_and_safety": {
+        "lawful_criticism_is_not_negative_information": true,
+        "no_person_is_classified_as_a_problem": true,
+        "no_secret_permanent_blacklist": true,
+        "satire_and_quotation_require_context": true,
+        "uncomfortable_truth_is_not_suppressed": true
+      },
+      "run_hash": "1ad7f222b2f157023e4af93b28c37ec24695d870bcbc78ce95847b11e6241e23",
+      "semantic_closure_vector": "11111",
+      "system": "DIKWP-QINGYUAN-OS",
+      "version": "1.0.0",
+      "world_models_retained": [
+        "WM-EVIDENCE",
+        "WM-MANIPULATION",
+        "WM-HARM-RIGHTS"
+      ]
+    },
+    "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+    "item_id": "QY-EX-02"
+  },
+  {
+    "certificate": {
+      "actions": [
+        {
+          "action_id": "A-FRICTION",
+          "action_type": "ADD_USER_CONTROLLED_FRICTION",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Recommend pause prompts, share delay, session break, citation confirmation, autoplay-off, and easy exit. The user may override non-safety friction.",
+          "expiry_hours": 72,
+          "level": "L3_COGNITIVE_FRICTION",
+          "level_rank": 3,
+          "owner": "user_or_parental_control_profile",
+          "reason_codes": [
+            "COMPULSIVE_ENGAGEMENT_DESIGN"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "sharing_purchase_or_continuation_flow"
+        },
+        {
+          "action_id": "A-DEAMPLIFY-ADDICTION",
+          "action_type": "DEAMPLIFY_RECOMMENDATION_FEEDBACK_LOOP",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Recommend removing autoplay/variable-reward boosts and ranking incentives, not deleting lawful content.",
+          "expiry_hours": 72,
+          "level": "L4_AMPLIFICATION_OR_MONETIZATION_BREAK",
+          "level_rank": 4,
+          "owner": "user_or_parental_control_profile",
+          "reason_codes": [
+            "COMPULSIVE_ENGAGEMENT_DESIGN"
+          ],
+          "requires_human_authorization": true,
+          "reversible": true,
+          "target": "ranking_and_notification_loop"
+        }
+      ],
+      "appeal_available": true,
+      "automatic_deletion": false,
+      "automatic_external_action_authority": 0,
+      "causal_handoff": {
+        "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+        "next_action": "apply only reversible circuit-breaking measures under named authority, then measure outcomes and appeals",
+        "owner": "user_or_parental_control_profile",
+        "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+      },
+      "certificate_id": "QY-CERT-QY-EX-03-cd3a536beda69cba",
+      "claim_boundaries": {
+        "legality": "NOT_ADJUDICATED",
+        "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+        "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+        "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+        "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+      },
+      "content_sha256": "87b4475276764baca9daa93a058e91fc6f0124a4712963f1b437aa0faaba29b0",
+      "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+      "item_id": "QY-EX-03",
+      "non_aggregated_profile": {
+        "addictive_design": 1.0,
+        "autonomy_risk": 0.4825,
+        "certainty_mismatch": 0.0,
+        "commercial_conflict": 0.2,
+        "evidence_deficit": 0.0,
+        "manipulation_pressure": 0.0,
+        "negative_truth_preservation": 0.0,
+        "potential_harm": 0.2015,
+        "provenance_deficit": 0.0,
+        "pseudo_knowledge_packaging": 0.06,
+        "suppression_protection": 0.0,
+        "vulnerable_targeting": 0.73
+      },
+      "rights_and_safety": {
+        "lawful_criticism_is_not_negative_information": true,
+        "no_person_is_classified_as_a_problem": true,
+        "no_secret_permanent_blacklist": true,
+        "satire_and_quotation_require_context": true,
+        "uncomfortable_truth_is_not_suppressed": true
+      },
+      "run_hash": "cd3a536beda69cba632941158aaeaf50dd8e37f207cd263642e3484d47dbd176",
+      "semantic_closure_vector": "11111",
+      "system": "DIKWP-QINGYUAN-OS",
+      "version": "1.0.0",
+      "world_models_retained": [
+        "WM-EVIDENCE",
+        "WM-MANIPULATION",
+        "WM-HARM-RIGHTS"
+      ]
+    },
+    "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+    "item_id": "QY-EX-03"
+  },
+  {
+    "certificate": {
+      "actions": [
+        {
+          "action_id": "A-PRESERVE-SURFACE",
+          "action_type": "PRESERVE_AND_SURFACE",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Do not demote merely because the content is alarming, critical, pessimistic, or emotionally negative.",
+          "expiry_hours": 0,
+          "level": "L0_OBSERVE",
+          "level_rank": 0,
+          "owner": "independent_public_interest_editor",
+          "reason_codes": [
+            "NEGATIVE_OR_CRITICAL_CONTENT_WITH_EVIDENCE",
+            "PUBLIC_INTEREST"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "content_visibility"
+        }
+      ],
+      "appeal_available": true,
+      "automatic_deletion": false,
+      "automatic_external_action_authority": 0,
+      "causal_handoff": {
+        "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+        "next_action": "preserve the content and continue ordinary provenance monitoring",
+        "owner": "independent_public_interest_editor",
+        "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+      },
+      "certificate_id": "QY-CERT-QY-EX-05-1a84cbde4b7e606c",
+      "claim_boundaries": {
+        "legality": "NOT_ADJUDICATED",
+        "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+        "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+        "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+        "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+      },
+      "content_sha256": "07c69e0fc6d5fcc9355c788ad778185dd5226e09ea8ca4cbdf6411c4451fa2f1",
+      "disposition": "PRESERVE_AND_SURFACE",
+      "item_id": "QY-EX-05",
+      "non_aggregated_profile": {
+        "addictive_design": 0.0,
+        "autonomy_risk": 0.0,
+        "certainty_mismatch": 0.0,
+        "commercial_conflict": 0.0,
+        "evidence_deficit": 0.0,
+        "manipulation_pressure": 0.0,
+        "negative_truth_preservation": 0.8,
+        "potential_harm": 0.368,
+        "provenance_deficit": 0.0,
+        "pseudo_knowledge_packaging": 0.0,
+        "suppression_protection": 1.0,
+        "vulnerable_targeting": 0.0
+      },
+      "rights_and_safety": {
+        "lawful_criticism_is_not_negative_information": true,
+        "no_person_is_classified_as_a_problem": true,
+        "no_secret_permanent_blacklist": true,
+        "satire_and_quotation_require_context": true,
+        "uncomfortable_truth_is_not_suppressed": true
+      },
+      "run_hash": "1a84cbde4b7e606cbd3abd6953c79cbbd54737ea8bd606941ea02dba2c3a00ad",
+      "semantic_closure_vector": "11111",
+      "system": "DIKWP-QINGYUAN-OS",
+      "version": "1.0.0",
+      "world_models_retained": [
+        "WM-EVIDENCE",
+        "WM-MANIPULATION",
+        "WM-HARM-RIGHTS"
+      ]
+    },
+    "disposition": "PRESERVE_AND_SURFACE",
+    "item_id": "QY-EX-05"
+  },
+  {
+    "certificate": {
+      "actions": [
+        {
+          "action_id": "A-PROVENANCE-RETURN",
+          "action_type": "ATTACH_PROVENANCE_AND_EVIDENCE_CARD",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Show source identity, claim-by-claim evidence status, uncertainty, and what evidence would change the assessment.",
+          "expiry_hours": 168,
+          "level": "L1_PROVENANCE_RETURN",
+          "level_rank": 1,
+          "owner": "community_moderator",
+          "reason_codes": [
+            "SOURCE_OR_EVIDENCE_INCOMPLETE"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "claim_context"
+        },
+        {
+          "action_id": "A-CONTEXT",
+          "action_type": "CONTEXTUALIZE_AND_REQUEST_EVIDENCE",
+          "appeal_available": true,
+          "automatic_execution": false,
+          "detail": "Present plausible alternatives, claim scope, missing tests, and a bounded evidence request; do not label disagreement as pathology.",
+          "expiry_hours": 168,
+          "level": "L2_CONTEXT_AND_COUNTEREVIDENCE",
+          "level_rank": 2,
+          "owner": "community_moderator",
+          "reason_codes": [
+            "CERTAINTY_EXCEEDS_SUBMITTED_EVIDENCE"
+          ],
+          "requires_human_authorization": false,
+          "reversible": true,
+          "target": "claim_interpretation"
+        }
+      ],
+      "appeal_available": true,
+      "automatic_deletion": false,
+      "automatic_external_action_authority": 0,
+      "causal_handoff": {
+        "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+        "next_action": "publish provenance, uncertainty, and counterevidence context; invite a bounded correction",
+        "owner": "community_moderator",
+        "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+      },
+      "certificate_id": "QY-CERT-QY-EX-07-e56d2efa10b53322",
+      "claim_boundaries": {
+        "legality": "NOT_ADJUDICATED",
+        "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+        "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+        "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+        "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+      },
+      "content_sha256": "69596c7b4da642b079372a21e8a144479cb36e5dcef933ceb0ae782c58cac01f",
+      "disposition": "PRESERVE_WITH_CONTEXT",
+      "item_id": "QY-EX-07",
+      "non_aggregated_profile": {
+        "addictive_design": 0.0,
+        "autonomy_risk": 0.0,
+        "certainty_mismatch": 0.0,
+        "commercial_conflict": 0.0,
+        "evidence_deficit": 0.62,
+        "manipulation_pressure": 0.0,
+        "negative_truth_preservation": 0.0,
+        "potential_harm": 0.323,
+        "provenance_deficit": 0.45,
+        "pseudo_knowledge_packaging": 0.217,
+        "suppression_protection": 0.25,
+        "vulnerable_targeting": 0.0
+      },
+      "rights_and_safety": {
+        "lawful_criticism_is_not_negative_information": true,
+        "no_person_is_classified_as_a_problem": true,
+        "no_secret_permanent_blacklist": true,
+        "satire_and_quotation_require_context": true,
+        "uncomfortable_truth_is_not_suppressed": true
+      },
+      "run_hash": "e56d2efa10b533224b22b3735ad46a8d085c8d5e77fef8d9f60ef01de512491b",
+      "semantic_closure_vector": "11111",
+      "system": "DIKWP-QINGYUAN-OS",
+      "version": "1.0.0",
+      "world_models_retained": [
+        "WM-EVIDENCE",
+        "WM-MANIPULATION",
+        "WM-HARM-RIGHTS"
+      ]
+    },
+    "disposition": "PRESERVE_WITH_CONTEXT",
+    "item_id": "QY-EX-07"
+  }
+]

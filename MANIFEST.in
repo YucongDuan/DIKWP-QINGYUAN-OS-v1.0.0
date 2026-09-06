@@ -1,0 +1,4 @@
+recursive-include src/qingyuan_os/data *.json
+recursive-include docs *.md
+recursive-include schemas *.json
+recursive-include examples *.json

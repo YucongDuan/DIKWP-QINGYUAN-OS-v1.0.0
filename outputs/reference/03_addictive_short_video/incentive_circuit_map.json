@@ -1,0 +1,69 @@
+{
+  "breakpoints": [
+    {
+      "method": "evidence and provenance return",
+      "reversible": true,
+      "target": "claim"
+    },
+    {
+      "method": "remove compulsive boosts and add user-controlled friction",
+      "reversible": true,
+      "target": "ranking"
+    },
+    {
+      "method": "sponsor/affiliate disclosure, cooling-off period, refund audit",
+      "reversible": true,
+      "target": "payment"
+    },
+    {
+      "method": "claim-level accountability rather than permanent person blacklist",
+      "reversible": true,
+      "target": "creator"
+    }
+  ],
+  "edges": [
+    {
+      "from": "creator",
+      "relation": "publishes_or_sells",
+      "to": "claim"
+    },
+    {
+      "from": "claim",
+      "relation": "targets_or_reaches",
+      "to": "audience"
+    },
+    {
+      "from": "ranking",
+      "relation": "amplifies",
+      "to": "claim"
+    },
+    {
+      "from": "audience",
+      "relation": "engagement_signal",
+      "to": "ranking"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "creator",
+      "label": "Synthetic Video Platform",
+      "type": "content_or_seller"
+    },
+    {
+      "id": "claim",
+      "label": "以变动奖励和无限滚动驱动的短视频流",
+      "type": "claim_bundle"
+    },
+    {
+      "id": "audience",
+      "label": "general_public, children",
+      "type": "audience"
+    },
+    {
+      "id": "ranking",
+      "label": "ranking / notification / engagement loop",
+      "type": "amplification"
+    }
+  ],
+  "principle": "Break harmful incentives and amplification loops before trying to erase people or lawful viewpoints."
+}

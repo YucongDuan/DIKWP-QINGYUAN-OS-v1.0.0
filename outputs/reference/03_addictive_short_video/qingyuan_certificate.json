@@ -1,0 +1,88 @@
+{
+  "actions": [
+    {
+      "action_id": "A-FRICTION",
+      "action_type": "ADD_USER_CONTROLLED_FRICTION",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Recommend pause prompts, share delay, session break, citation confirmation, autoplay-off, and easy exit. The user may override non-safety friction.",
+      "expiry_hours": 72,
+      "level": "L3_COGNITIVE_FRICTION",
+      "level_rank": 3,
+      "owner": "user_or_parental_control_profile",
+      "reason_codes": [
+        "COMPULSIVE_ENGAGEMENT_DESIGN"
+      ],
+      "requires_human_authorization": false,
+      "reversible": true,
+      "target": "sharing_purchase_or_continuation_flow"
+    },
+    {
+      "action_id": "A-DEAMPLIFY-ADDICTION",
+      "action_type": "DEAMPLIFY_RECOMMENDATION_FEEDBACK_LOOP",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Recommend removing autoplay/variable-reward boosts and ranking incentives, not deleting lawful content.",
+      "expiry_hours": 72,
+      "level": "L4_AMPLIFICATION_OR_MONETIZATION_BREAK",
+      "level_rank": 4,
+      "owner": "user_or_parental_control_profile",
+      "reason_codes": [
+        "COMPULSIVE_ENGAGEMENT_DESIGN"
+      ],
+      "requires_human_authorization": true,
+      "reversible": true,
+      "target": "ranking_and_notification_loop"
+    }
+  ],
+  "appeal_available": true,
+  "automatic_deletion": false,
+  "automatic_external_action_authority": 0,
+  "causal_handoff": {
+    "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+    "next_action": "apply only reversible circuit-breaking measures under named authority, then measure outcomes and appeals",
+    "owner": "user_or_parental_control_profile",
+    "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+  },
+  "certificate_id": "QY-CERT-QY-EX-03-cd3a536beda69cba",
+  "claim_boundaries": {
+    "legality": "NOT_ADJUDICATED",
+    "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+    "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+    "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+    "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+  },
+  "content_sha256": "87b4475276764baca9daa93a058e91fc6f0124a4712963f1b437aa0faaba29b0",
+  "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+  "item_id": "QY-EX-03",
+  "non_aggregated_profile": {
+    "addictive_design": 1.0,
+    "autonomy_risk": 0.4825,
+    "certainty_mismatch": 0.0,
+    "commercial_conflict": 0.2,
+    "evidence_deficit": 0.0,
+    "manipulation_pressure": 0.0,
+    "negative_truth_preservation": 0.0,
+    "potential_harm": 0.2015,
+    "provenance_deficit": 0.0,
+    "pseudo_knowledge_packaging": 0.06,
+    "suppression_protection": 0.0,
+    "vulnerable_targeting": 0.73
+  },
+  "rights_and_safety": {
+    "lawful_criticism_is_not_negative_information": true,
+    "no_person_is_classified_as_a_problem": true,
+    "no_secret_permanent_blacklist": true,
+    "satire_and_quotation_require_context": true,
+    "uncomfortable_truth_is_not_suppressed": true
+  },
+  "run_hash": "cd3a536beda69cba632941158aaeaf50dd8e37f207cd263642e3484d47dbd176",
+  "semantic_closure_vector": "11111",
+  "system": "DIKWP-QINGYUAN-OS",
+  "version": "1.0.0",
+  "world_models_retained": [
+    "WM-EVIDENCE",
+    "WM-MANIPULATION",
+    "WM-HARM-RIGHTS"
+  ]
+}

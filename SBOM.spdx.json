@@ -1,0 +1,41 @@
+{
+  "SPDXID": "SPDXRef-DOCUMENT",
+  "annotations": [
+    {
+      "annotationDate": "2026-09-06T00:00:00Z",
+      "annotationType": "OTHER",
+      "annotator": "Tool: build_sbom.py",
+      "comment": "Runtime dependencies: Python standard library only."
+    }
+  ],
+  "creationInfo": {
+    "created": "2026-09-06T00:00:00Z",
+    "creators": [
+      "Tool: DIKWP-QINGYUAN-OS build_sbom.py"
+    ]
+  },
+  "dataLicense": "CC0-1.0",
+  "documentNamespace": "https://example.org/spdx/dikwp-qingyuan-os/1.0.0",
+  "name": "DIKWP-QINGYUAN-OS-1.0.0",
+  "packages": [
+    {
+      "SPDXID": "SPDXRef-Package-Qingyuan",
+      "copyrightText": "Copyright 2026 Yucong Duan and contributors",
+      "downloadLocation": "NOASSERTION",
+      "externalRefs": [],
+      "filesAnalyzed": false,
+      "licenseConcluded": "AGPL-3.0-or-later",
+      "licenseDeclared": "AGPL-3.0-or-later",
+      "name": "DIKWP-QINGYUAN-OS",
+      "versionInfo": "1.0.0"
+    }
+  ],
+  "relationships": [
+    {
+      "relatedSpdxElement": "SPDXRef-Package-Qingyuan",
+      "relationshipType": "DESCRIBES",
+      "spdxElementId": "SPDXRef-DOCUMENT"
+    }
+  ],
+  "spdxVersion": "SPDX-2.3"
+}

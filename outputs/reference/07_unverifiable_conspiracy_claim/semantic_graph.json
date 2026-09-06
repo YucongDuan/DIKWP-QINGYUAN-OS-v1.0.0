@@ -1,0 +1,212 @@
+{
+  "allowed_route_types": [
+    "D->D",
+    "D->I",
+    "D->K",
+    "D->W",
+    "D->P",
+    "I->D",
+    "I->I",
+    "I->K",
+    "I->W",
+    "I->P",
+    "K->D",
+    "K->I",
+    "K->K",
+    "K->W",
+    "K->P",
+    "W->D",
+    "W->I",
+    "W->K",
+    "W->W",
+    "W->P",
+    "P->D",
+    "P->I",
+    "P->K",
+    "P->W",
+    "P->P"
+  ],
+  "append_only": true,
+  "closure_vector": "11111",
+  "concept_aliases_have_zero_native_authority": true,
+  "note": "D/I/K/W/P are open roles, not a moral ranking and not labels for good or bad people.",
+  "positions": [
+    "D",
+    "I",
+    "K",
+    "W",
+    "P"
+  ],
+  "records": [
+    {
+      "content": {
+        "claims_submitted": 1,
+        "content_sha256": "69596c7b4da642b079372a21e8a144479cb36e5dcef933ceb0ae782c58cac01f",
+        "source": {
+          "identity_verified": false,
+          "provenance_note": "First-person speculation",
+          "publisher": "Individual User"
+        }
+      },
+      "immutable": true,
+      "position": "D",
+      "provenance": "submitted_item",
+      "record_id": "D-QY-EX-07-SOURCE"
+    },
+    {
+      "content": [
+        {
+          "certainty_mismatch": 0.0,
+          "claim_id": "C1",
+          "claim_type": "factual",
+          "evidence_deficit": 0.62,
+          "evidence_items": 1,
+          "evidence_quality": 0.38,
+          "requested_behavior": "",
+          "stakes": "medium",
+          "status": "WEAKLY_SUPPORTED"
+        }
+      ],
+      "immutable": true,
+      "position": "D",
+      "provenance": "WM-EVIDENCE",
+      "record_id": "D-QY-EX-07-EVIDENCE"
+    },
+    {
+      "content": {
+        "detected": {},
+        "note": "Lexical signals are screening indicators, not proof of falsity or harmful intent."
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "lexical_and_design_screen",
+      "record_id": "I-QY-EX-07-SIGNALS"
+    },
+    {
+      "content": {
+        "commercial_conflict": 0.0,
+        "evidence_deficit": 0.62,
+        "suppression_protection": 0.25
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "plural_world_model_comparison",
+      "record_id": "I-QY-EX-07-CONFLICT"
+    },
+    {
+      "content": {
+        "disposition": "PRESERVE_WITH_CONTEXT",
+        "not_a_truth_or_intent_or_personhood_verdict": true,
+        "scope": "submitted item and declared context only"
+      },
+      "immutable": true,
+      "position": "K",
+      "provenance": "bounded_runtime_assessment",
+      "record_id": "K-QY-EX-07-ASSESSMENT"
+    },
+    {
+      "content": {
+        "avoid_coercive_belief_change": true,
+        "avoid_secret_blacklists": true,
+        "potential_harm": 0.323,
+        "protect_autonomy": true,
+        "protect_negative_truth_and_dissent": true,
+        "protect_vulnerable_people": true
+      },
+      "immutable": true,
+      "position": "W",
+      "provenance": "rights_and_harm_configuration",
+      "record_id": "W-QY-EX-07-RIGHTS"
+    },
+    {
+      "content": {
+        "actions": [
+          "ATTACH_PROVENANCE_AND_EVIDENCE_CARD",
+          "CONTEXTUALIZE_AND_REQUEST_EVIDENCE"
+        ],
+        "automatic_external_action_authority": 0,
+        "input_records": [
+          "D-QY-EX-07-SOURCE",
+          "D-QY-EX-07-EVIDENCE",
+          "I-QY-EX-07-SIGNALS",
+          "I-QY-EX-07-CONFLICT",
+          "K-QY-EX-07-ASSESSMENT",
+          "W-QY-EX-07-RIGHTS"
+        ],
+        "output": "reversible_intervention_plan"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "intervention_contract",
+      "record_id": "P-QY-EX-07-PLAN"
+    },
+    {
+      "content": {
+        "input": "open evidence and provenance positions",
+        "output": "specific evidence that would update the assessment"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "evidence_return_contract",
+      "record_id": "P-QY-EX-07-EVIDENCE-REQUEST"
+    }
+  ],
+  "routes": [
+    {
+      "generated_content": "Submitted traces are screened for consequential differences without declaring them false.",
+      "route_id": "R-65750aef7b4e5c9b",
+      "route_type": "D->I",
+      "source_record_id": "D-QY-EX-07-SOURCE",
+      "target_record_id": "I-QY-EX-07-SIGNALS"
+    },
+    {
+      "generated_content": "Claim evidence constrains the bounded assessment.",
+      "route_id": "R-b5a6ca774df41de4",
+      "route_type": "D->K",
+      "source_record_id": "D-QY-EX-07-EVIDENCE",
+      "target_record_id": "K-QY-EX-07-ASSESSMENT"
+    },
+    {
+      "generated_content": "Manipulation and uncertainty signals reopen simple accept/reject classification.",
+      "route_id": "R-cd0ee417c52bc5b8",
+      "route_type": "I->K",
+      "source_record_id": "I-QY-EX-07-SIGNALS",
+      "target_record_id": "K-QY-EX-07-ASSESSMENT"
+    },
+    {
+      "generated_content": "Model disagreement activates autonomy and expression-rights review.",
+      "route_id": "R-e0ce98c38d1aa0b1",
+      "route_type": "I->W",
+      "source_record_id": "I-QY-EX-07-CONFLICT",
+      "target_record_id": "W-QY-EX-07-RIGHTS"
+    },
+    {
+      "generated_content": "Assessment consequences are checked before action.",
+      "route_id": "R-6590c1a3ec7d6090",
+      "route_type": "K->W",
+      "source_record_id": "K-QY-EX-07-ASSESSMENT",
+      "target_record_id": "W-QY-EX-07-RIGHTS"
+    },
+    {
+      "generated_content": "Configured values alter the selected intervention and cap censorship risk.",
+      "route_id": "R-c0aa47fa7c9b245e",
+      "route_type": "W->P",
+      "source_record_id": "W-QY-EX-07-RIGHTS",
+      "target_record_id": "P-QY-EX-07-PLAN"
+    },
+    {
+      "generated_content": "The intervention emits a reversible request for missing evidence.",
+      "route_id": "R-9c8514568f355c49",
+      "route_type": "P->P",
+      "source_record_id": "P-QY-EX-07-PLAN",
+      "target_record_id": "P-QY-EX-07-EVIDENCE-REQUEST"
+    },
+    {
+      "generated_content": "New evidence may be appended as a successor D record; prior records remain addressable.",
+      "route_id": "R-e98721cb7d19f79e",
+      "route_type": "P->D",
+      "source_record_id": "P-QY-EX-07-EVIDENCE-REQUEST",
+      "target_record_id": "D-QY-EX-07-EVIDENCE"
+    }
+  ]
+}

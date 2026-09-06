@@ -1,0 +1,34 @@
+{
+  "claim_statuses": [
+    {
+      "certainty_mismatch": 0.326667,
+      "claim_id": "C1",
+      "evidence_quality": 0.2,
+      "status": "WEAKLY_SUPPORTED"
+    }
+  ],
+  "harm_context": {
+    "autonomy_risk": 0.752292,
+    "potential_harm": 0.8865
+  },
+  "headline": "面向老年人的高价神奇疗愈课程",
+  "interest_status": {
+    "affiliate": true,
+    "payment_present": true,
+    "recommendation_incentive": "commission per sale",
+    "refund_disclosed": false,
+    "seller_or_creator": "Anonymous Wellness Master",
+    "sponsor_disclosed": false
+  },
+  "item_id": "QY-EX-02",
+  "rights_notice": {
+    "negative_or_unpopular_does_not_mean_false": true,
+    "person_is_not_equated_with_claim": true,
+    "positive_or_inspirational_does_not_mean_true": true,
+    "uncertainty_is_explicit": true
+  },
+  "source_status": {
+    "provenance_deficit": 0.45,
+    "provenance_quality": 0.55
+  }
+}

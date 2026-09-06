@@ -1,0 +1,79 @@
+{
+  "actions": [
+    {
+      "action_id": "A-PROVENANCE-RETURN",
+      "action_type": "ATTACH_PROVENANCE_AND_EVIDENCE_CARD",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Show source identity, claim-by-claim evidence status, uncertainty, and what evidence would change the assessment.",
+      "expiry_hours": 168,
+      "level": "L1_PROVENANCE_RETURN",
+      "level_rank": 1,
+      "owner": "family_support_coordinator",
+      "reason_codes": [
+        "SOURCE_OR_EVIDENCE_INCOMPLETE"
+      ],
+      "requires_human_authorization": false,
+      "reversible": true,
+      "target": "claim_context"
+    },
+    {
+      "action_id": "A-CONTEXT",
+      "action_type": "CONTEXTUALIZE_AND_REQUEST_EVIDENCE",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Present plausible alternatives, claim scope, missing tests, and a bounded evidence request; do not label disagreement as pathology.",
+      "expiry_hours": 168,
+      "level": "L2_CONTEXT_AND_COUNTEREVIDENCE",
+      "level_rank": 2,
+      "owner": "family_support_coordinator",
+      "reason_codes": [
+        "CERTAINTY_EXCEEDS_SUBMITTED_EVIDENCE"
+      ],
+      "requires_human_authorization": false,
+      "reversible": true,
+      "target": "claim_interpretation"
+    },
+    {
+      "action_id": "A-MONETIZATION-BREAK",
+      "action_type": "PAUSE_MONETIZATION_AND_REQUIRE_DISCLOSURE",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Recommend suspending recommendation-derived monetization pending evidence, sponsorship, outcome-claim, and refund-policy review.",
+      "expiry_hours": 168,
+      "level": "L4_AMPLIFICATION_OR_MONETIZATION_BREAK",
+      "level_rank": 4,
+      "owner": "family_support_coordinator",
+      "reason_codes": [
+        "COMMERCIAL_CONFLICT",
+        "PSEUDO_KNOWLEDGE_OR_PRESSURE"
+      ],
+      "requires_human_authorization": true,
+      "reversible": true,
+      "target": "affiliate_ads_payment_and_recommendation_incentives"
+    }
+  ],
+  "decision_logic": {
+    "aggregate_score_used": false,
+    "appeal_required": true,
+    "automatic_deletion": false,
+    "automatic_external_action_authority": 0,
+    "emotional_valence_used_as_restriction_signal": false,
+    "public_interest_and_dissent_firewall": true,
+    "temporary_actions_require_expiry": true
+  },
+  "disposition": "FRICTION_AND_CIRCUIT_BREAK_RECOMMENDED",
+  "highest_level_rank": 4,
+  "reason_codes": [
+    "CONTEXTUAL_REVIEW",
+    "MONETIZATION_CIRCUIT_BREAK",
+    "PROVENANCE_RETURN_REQUIRED"
+  ],
+  "rights_firewall": {
+    "lawful_criticism_is_not_negative_information": true,
+    "no_person_is_classified_as_a_problem": true,
+    "no_secret_permanent_blacklist": true,
+    "satire_and_quotation_require_context": true,
+    "uncomfortable_truth_is_not_suppressed": true
+  }
+}

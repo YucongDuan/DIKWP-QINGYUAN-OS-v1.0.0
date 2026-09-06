@@ -1,0 +1,22 @@
+{
+  "files": {
+    "appeal_packet.json": "1475aad433206ed313c5fa0541397fef961f6e068410a9caed1389fd403ca005",
+    "assessment.json": "1eab11f4d7f0bdfc5f055fc004e11f453b728df455f2d19440085c81395ab30c",
+    "evidence_ledger.jsonl": "b57381ddf9cdb0a6dd01e777cd888d650219ef0d47e86ae7df51fd074633dae9",
+    "incentive_circuit_map.json": "30ec52fe775b8fa7e35df0b2ea3fadbdcc46d43571671a09d7768d822be021d9",
+    "intervention_plan.json": "46e669ca5abd6f2024d5a0cb20e26ca28b1f2550f4b74cd2f2bb028ec5986882",
+    "qingyuan_certificate.json": "ed0f13f65ca91fc83ed5d585428e8f1d0708cd883fbe57f950301416ffb121b3",
+    "real_life_support_plan.json": "07d1326412a5462015f03afedf7386608e0cad045b0358a7322823510150d794",
+    "report.en.md": "35224ca71817b04b27fcd4e029d94c7de219e0b1fdccd59bb2012032773a30e2",
+    "report.zh-CN.md": "42736347dc3bcf09028addd24ab63c9737f8a68df6b6e7a4724bf0f9c47cf26a",
+    "residual_queue.json": "ac48bf534d886253ed082d438074188b8d6ca92049972be6f4af97f1e786f6ba",
+    "semantic_graph.json": "d6a883414149af370cd2d69f7fed57cf9f3937cbf6f1c7119a4bacb43499710c",
+    "truth_return_card.json": "f83369fa11005cbfc586bee6306fe5e27658b5acee4adc59750aa78a028da520"
+  },
+  "item_id": "QY-EX-07",
+  "ledger_head_hash": "67169a80c2866643aea32c6ff01e3f98dd1f1e008ddd1be25967c989665786f5",
+  "merkle_root": "32f1fe82b1076ca76c7fba3c19edaf55c643577fd88d7254dde4bb88eccf9fb8",
+  "run_hash": "e56d2efa10b533224b22b3735ad46a8d085c8d5e77fef8d9f60ef01de512491b",
+  "system": "DIKWP-QINGYUAN-OS",
+  "version": "1.0.0"
+}

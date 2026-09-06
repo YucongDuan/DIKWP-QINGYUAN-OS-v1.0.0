@@ -1,0 +1,14 @@
+{
+  "actual_outcomes_must_update_models": true,
+  "not_one_uncertainty_score": true,
+  "open_items": [
+    {
+      "description": "Restrictive action may suppress criticism, dissent, satire, minority evidence, or public-interest warning.",
+      "owner": "public_health_editor",
+      "reopen_condition": "Independent rights review must confirm claim-specific necessity and least-restrictive means.",
+      "residual_id": "R-QY-EX-01-RIGHTS",
+      "type": "EXPRESSION_RIGHTS_RISK"
+    }
+  ],
+  "unobserved_outcomes_are_reality_debt": true
+}

@@ -1,0 +1,242 @@
+{
+  "allowed_route_types": [
+    "D->D",
+    "D->I",
+    "D->K",
+    "D->W",
+    "D->P",
+    "I->D",
+    "I->I",
+    "I->K",
+    "I->W",
+    "I->P",
+    "K->D",
+    "K->I",
+    "K->K",
+    "K->W",
+    "K->P",
+    "W->D",
+    "W->I",
+    "W->K",
+    "W->W",
+    "W->P",
+    "P->D",
+    "P->I",
+    "P->K",
+    "P->W",
+    "P->P"
+  ],
+  "append_only": true,
+  "closure_vector": "11111",
+  "concept_aliases_have_zero_native_authority": true,
+  "note": "D/I/K/W/P are open roles, not a moral ranking and not labels for good or bad people.",
+  "positions": [
+    "D",
+    "I",
+    "K",
+    "W",
+    "P"
+  ],
+  "records": [
+    {
+      "content": {
+        "claims_submitted": 1,
+        "content_sha256": "c762bbd0132dcc3c8ad69b2a1b554951429622966a472ba8d22be2a2ac73e056",
+        "source": {
+          "identity_verified": false,
+          "provenance_note": "Reposted sales video with no original study or registered provider",
+          "publisher": "Anonymous Wellness Master"
+        }
+      },
+      "immutable": true,
+      "position": "D",
+      "provenance": "submitted_item",
+      "record_id": "D-QY-EX-02-SOURCE"
+    },
+    {
+      "content": [
+        {
+          "certainty_mismatch": 0.326667,
+          "claim_id": "C1",
+          "claim_type": "medical",
+          "evidence_deficit": 0.8,
+          "evidence_items": 1,
+          "evidence_quality": 0.2,
+          "requested_behavior": "replace medical care and buy course",
+          "stakes": "critical",
+          "status": "WEAKLY_SUPPORTED"
+        }
+      ],
+      "immutable": true,
+      "position": "D",
+      "provenance": "WM-EVIDENCE",
+      "record_id": "D-QY-EX-02-EVIDENCE"
+    },
+    {
+      "content": {
+        "detected": {
+          "absolute_certainty": [
+            "绝对有效"
+          ],
+          "fear_shame_pressure": [
+            "为了家人你必须"
+          ],
+          "medical_displacement": [
+            "三天逆转糖尿病",
+            "不用看医生"
+          ],
+          "pseudo_knowledge_packaging": [
+            "量子能量"
+          ],
+          "secrecy_isolation": [
+            "不要告诉医生",
+            "他们不想让你知道"
+          ],
+          "transaction_request": [
+            "购买课程"
+          ],
+          "urgency_scarcity": [
+            "仅限今天",
+            "立即购买"
+          ]
+        },
+        "note": "Lexical signals are screening indicators, not proof of falsity or harmful intent."
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "lexical_and_design_screen",
+      "record_id": "I-QY-EX-02-SIGNALS"
+    },
+    {
+      "content": {
+        "commercial_conflict": 1.0,
+        "evidence_deficit": 0.8,
+        "suppression_protection": 0.0
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "plural_world_model_comparison",
+      "record_id": "I-QY-EX-02-CONFLICT"
+    },
+    {
+      "content": {
+        "disposition": "HIGH_RISK_AUTHORIZED_REVIEW",
+        "not_a_truth_or_intent_or_personhood_verdict": true,
+        "scope": "submitted item and declared context only"
+      },
+      "immutable": true,
+      "position": "K",
+      "provenance": "bounded_runtime_assessment",
+      "record_id": "K-QY-EX-02-ASSESSMENT"
+    },
+    {
+      "content": {
+        "avoid_coercive_belief_change": true,
+        "avoid_secret_blacklists": true,
+        "potential_harm": 0.8865,
+        "protect_autonomy": true,
+        "protect_negative_truth_and_dissent": true,
+        "protect_vulnerable_people": true
+      },
+      "immutable": true,
+      "position": "W",
+      "provenance": "rights_and_harm_configuration",
+      "record_id": "W-QY-EX-02-RIGHTS"
+    },
+    {
+      "content": {
+        "actions": [
+          "ATTACH_PROVENANCE_AND_EVIDENCE_CARD",
+          "CONTEXTUALIZE_AND_REQUEST_EVIDENCE",
+          "ADD_USER_CONTROLLED_FRICTION",
+          "DEAMPLIFY_RECOMMENDATION_FEEDBACK_LOOP",
+          "PAUSE_MONETIZATION_AND_REQUIRE_DISCLOSURE",
+          "QUARANTINE_PENDING_AUTHORIZED_REVIEW",
+          "ESCALATE_TO_DOMAIN_AND_POLICY_REVIEW"
+        ],
+        "automatic_external_action_authority": 0,
+        "input_records": [
+          "D-QY-EX-02-SOURCE",
+          "D-QY-EX-02-EVIDENCE",
+          "I-QY-EX-02-SIGNALS",
+          "I-QY-EX-02-CONFLICT",
+          "K-QY-EX-02-ASSESSMENT",
+          "W-QY-EX-02-RIGHTS"
+        ],
+        "output": "reversible_intervention_plan"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "intervention_contract",
+      "record_id": "P-QY-EX-02-PLAN"
+    },
+    {
+      "content": {
+        "input": "open evidence and provenance positions",
+        "output": "specific evidence that would update the assessment"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "evidence_return_contract",
+      "record_id": "P-QY-EX-02-EVIDENCE-REQUEST"
+    }
+  ],
+  "routes": [
+    {
+      "generated_content": "Submitted traces are screened for consequential differences without declaring them false.",
+      "route_id": "R-73e864af715c03f5",
+      "route_type": "D->I",
+      "source_record_id": "D-QY-EX-02-SOURCE",
+      "target_record_id": "I-QY-EX-02-SIGNALS"
+    },
+    {
+      "generated_content": "Claim evidence constrains the bounded assessment.",
+      "route_id": "R-c7c3c46fc0b090a8",
+      "route_type": "D->K",
+      "source_record_id": "D-QY-EX-02-EVIDENCE",
+      "target_record_id": "K-QY-EX-02-ASSESSMENT"
+    },
+    {
+      "generated_content": "Manipulation and uncertainty signals reopen simple accept/reject classification.",
+      "route_id": "R-507b9efa02aed4bc",
+      "route_type": "I->K",
+      "source_record_id": "I-QY-EX-02-SIGNALS",
+      "target_record_id": "K-QY-EX-02-ASSESSMENT"
+    },
+    {
+      "generated_content": "Model disagreement activates autonomy and expression-rights review.",
+      "route_id": "R-3a5d3ca8fbab0c33",
+      "route_type": "I->W",
+      "source_record_id": "I-QY-EX-02-CONFLICT",
+      "target_record_id": "W-QY-EX-02-RIGHTS"
+    },
+    {
+      "generated_content": "Assessment consequences are checked before action.",
+      "route_id": "R-67bf236b47b2f0d7",
+      "route_type": "K->W",
+      "source_record_id": "K-QY-EX-02-ASSESSMENT",
+      "target_record_id": "W-QY-EX-02-RIGHTS"
+    },
+    {
+      "generated_content": "Configured values alter the selected intervention and cap censorship risk.",
+      "route_id": "R-e2a3d85281136795",
+      "route_type": "W->P",
+      "source_record_id": "W-QY-EX-02-RIGHTS",
+      "target_record_id": "P-QY-EX-02-PLAN"
+    },
+    {
+      "generated_content": "The intervention emits a reversible request for missing evidence.",
+      "route_id": "R-98bc46af01909b98",
+      "route_type": "P->P",
+      "source_record_id": "P-QY-EX-02-PLAN",
+      "target_record_id": "P-QY-EX-02-EVIDENCE-REQUEST"
+    },
+    {
+      "generated_content": "New evidence may be appended as a successor D record; prior records remain addressable.",
+      "route_id": "R-39c4cefbeddbf0bc",
+      "route_type": "P->D",
+      "source_record_id": "P-QY-EX-02-EVIDENCE-REQUEST",
+      "target_record_id": "D-QY-EX-02-EVIDENCE"
+    }
+  ]
+}

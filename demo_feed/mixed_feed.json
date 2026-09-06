@@ -1,0 +1,320 @@
+{
+  "feed_id": "QY-DEMO-FEED",
+  "items": [
+    {
+      "item_id": "QY-EX-01",
+      "title": "有证据的公共安全警示：负面内容不应被压制",
+      "channel": "online",
+      "content_type": "public_warning",
+      "language": "zh-CN",
+      "text": "本地供水检测报告显示某项污染物在两个采样点超过公开标准。请居民查看原始检测表，并在复检结果公布前采用官方建议的替代水源。这个消息令人担忧，但检测数据和复检安排均可核验。",
+      "source": {
+        "publisher": "Local Public Health Laboratory",
+        "url": "https://example.invalid/public-record/water-test",
+        "identity_verified": true,
+        "provenance_note": "Signed laboratory record and dated public notice"
+      },
+      "audience": {
+        "groups": [
+          "general_public"
+        ],
+        "vulnerabilities": [],
+        "targeted": false
+      },
+      "claims": [
+        {
+          "claim_id": "C1",
+          "text": "两个采样点的污染物超过公开标准",
+          "type": "public_safety",
+          "stakes": "high",
+          "bounded": true,
+          "evidence": [
+            {
+              "type": "official_record",
+              "locator": "lab-report-2026-09-01",
+              "independent": true,
+              "verifiable": true,
+              "direct": true
+            },
+            {
+              "type": "dataset",
+              "locator": "sampling-table.csv",
+              "independent": true,
+              "verifiable": true,
+              "direct": true
+            }
+          ]
+        }
+      ],
+      "commercial": {
+        "price": 0,
+        "affiliate": false,
+        "sponsor_present": false,
+        "refund_disclosed": true
+      },
+      "design": {},
+      "context": {
+        "public_interest": true,
+        "warning": true,
+        "criticism_or_dissent": false,
+        "quoted_or_reported": false
+      },
+      "declared_outcomes": {
+        "independent_verification": [
+          "scheduled retest"
+        ]
+      },
+      "purpose": {
+        "owner": "public_health_editor",
+        "objective": "preserve accurate warning while tracking updates",
+        "automatic_external_action_authority": 0
+      }
+    },
+    {
+      "item_id": "QY-EX-02",
+      "title": "面向老年人的高价神奇疗愈课程",
+      "channel": "online",
+      "content_type": "paid_course_advertisement",
+      "language": "zh-CN",
+      "text": "三天逆转糖尿病，绝对有效，不用看医生！这是被主流科学封杀的量子能量秘密。仅限今天，最后20个名额，立即购买课程。为了家人你必须抓住机会，不要告诉医生，他们不想让你知道。",
+      "source": {
+        "publisher": "Anonymous Wellness Master",
+        "identity_verified": false,
+        "provenance_note": "Reposted sales video with no original study or registered provider"
+      },
+      "audience": {
+        "groups": [
+          "older_adults",
+          "patients",
+          "low_literacy"
+        ],
+        "vulnerabilities": [
+          "chronic_illness",
+          "health_literacy"
+        ],
+        "targeted": true
+      },
+      "claims": [
+        {
+          "claim_id": "C1",
+          "text": "课程可在三天内逆转糖尿病",
+          "type": "medical",
+          "stakes": "critical",
+          "bounded": false,
+          "requested_behavior": "replace medical care and buy course",
+          "evidence": [
+            {
+              "type": "testimonial",
+              "locator": "sales-video",
+              "independent": false,
+              "verifiable": false,
+              "direct": false
+            }
+          ]
+        }
+      ],
+      "commercial": {
+        "price": 3999,
+        "affiliate": true,
+        "recurring_subscription": true,
+        "sponsor_present": true,
+        "sponsor_disclosed": false,
+        "refund_disclosed": false,
+        "recommendation_incentive": "commission per sale"
+      },
+      "design": {
+        "countdown": true,
+        "social_comparison": true,
+        "push_pressure": true
+      },
+      "context": {
+        "public_interest": false,
+        "warning": false,
+        "quoted_or_reported": false
+      },
+      "declared_outcomes": {},
+      "purpose": {
+        "owner": "authorized_platform_safety_reviewer",
+        "objective": "prevent high-stakes health exploitation while preserving evidence and appeal",
+        "automatic_external_action_authority": 0
+      }
+    },
+    {
+      "item_id": "QY-EX-03",
+      "title": "以变动奖励和无限滚动驱动的短视频流",
+      "channel": "online",
+      "content_type": "recommendation_feed",
+      "language": "zh-CN",
+      "text": "再刷一个，你绝对想不到下一集发生什么。连续签到可解锁隐藏内容，看到最后还有惊喜。",
+      "source": {
+        "publisher": "Synthetic Video Platform",
+        "url": "https://example.invalid/feed",
+        "identity_verified": true,
+        "provenance_note": "Synthetic interface study"
+      },
+      "audience": {
+        "groups": [
+          "general_public",
+          "children"
+        ],
+        "vulnerabilities": [
+          "attention_control"
+        ],
+        "targeted": true
+      },
+      "claims": [],
+      "commercial": {
+        "price": 0,
+        "affiliate": false,
+        "sponsor_present": true,
+        "sponsor_disclosed": false,
+        "recommendation_incentive": "watch-time advertising"
+      },
+      "design": {
+        "autoplay": true,
+        "infinite_scroll": true,
+        "variable_reward": true,
+        "streak": true,
+        "push_pressure": true,
+        "intermittent_reward": true,
+        "social_comparison": true
+      },
+      "context": {
+        "public_interest": false,
+        "warning": false
+      },
+      "declared_outcomes": {},
+      "purpose": {
+        "owner": "user_or_parental_control_profile",
+        "objective": "reduce compulsive exposure without banning lawful content",
+        "automatic_external_action_authority": 0
+      }
+    },
+    {
+      "item_id": "QY-EX-05",
+      "title": "有文件支持的机构批评与揭弊材料",
+      "channel": "online",
+      "content_type": "investigative_critique",
+      "language": "zh-CN",
+      "text": "这份调查指出某机构在采购过程中存在未披露的利益冲突。结论可能令人不安，也会损害机构形象，但附件包含合同、会议记录和可复核的付款数据。请核对原始文件并允许机构答复。",
+      "source": {
+        "publisher": "Independent Investigative Team",
+        "url": "https://example.invalid/investigation",
+        "identity_verified": true,
+        "provenance_note": "Document archive with signed hashes"
+      },
+      "audience": {
+        "groups": [
+          "general_public"
+        ],
+        "vulnerabilities": [],
+        "targeted": false
+      },
+      "claims": [
+        {
+          "claim_id": "C1",
+          "text": "采购存在未披露利益冲突",
+          "type": "factual",
+          "stakes": "high",
+          "bounded": true,
+          "evidence": [
+            {
+              "type": "primary_document",
+              "locator": "contract-bundle",
+              "independent": true,
+              "verifiable": true,
+              "direct": true
+            },
+            {
+              "type": "official_record",
+              "locator": "payment-ledger",
+              "independent": true,
+              "verifiable": true,
+              "direct": true
+            }
+          ]
+        }
+      ],
+      "commercial": {
+        "price": 0,
+        "affiliate": false,
+        "sponsor_present": false,
+        "refund_disclosed": true
+      },
+      "design": {},
+      "context": {
+        "public_interest": true,
+        "criticism_or_dissent": true,
+        "whistleblowing": true,
+        "minority_view": true,
+        "warning": false
+      },
+      "declared_outcomes": {
+        "independent_verification": [
+          "document hash verification"
+        ]
+      },
+      "purpose": {
+        "owner": "independent_public_interest_editor",
+        "objective": "preserve evidence-based criticism and enable reply",
+        "automatic_external_action_authority": 0
+      }
+    },
+    {
+      "item_id": "QY-EX-07",
+      "title": "暂时难以验证但未直接售卖的阴谋性主张",
+      "channel": "online",
+      "content_type": "personal_post",
+      "language": "zh-CN",
+      "text": "我怀疑某个秘密组织可能在控制天气，但我没有可靠证据，只看到几个时间上接近的事件。我愿意听取其他解释。",
+      "source": {
+        "publisher": "Individual User",
+        "identity_verified": false,
+        "provenance_note": "First-person speculation"
+      },
+      "audience": {
+        "groups": [
+          "general_public"
+        ],
+        "vulnerabilities": [],
+        "targeted": false
+      },
+      "claims": [
+        {
+          "claim_id": "C1",
+          "text": "某秘密组织可能控制天气",
+          "type": "factual",
+          "stakes": "medium",
+          "bounded": true,
+          "evidence": [
+            {
+              "type": "self_report",
+              "locator": "personal-observation",
+              "independent": false,
+              "verifiable": false,
+              "direct": false
+            }
+          ]
+        }
+      ],
+      "commercial": {
+        "price": 0,
+        "affiliate": false,
+        "sponsor_present": false,
+        "refund_disclosed": true
+      },
+      "design": {},
+      "context": {
+        "public_interest": false,
+        "minority_view": true,
+        "warning": false
+      },
+      "declared_outcomes": {},
+      "purpose": {
+        "owner": "community_moderator",
+        "objective": "add uncertainty and alternatives without punishing speculation",
+        "automatic_external_action_authority": 0
+      }
+    }
+  ]
+}

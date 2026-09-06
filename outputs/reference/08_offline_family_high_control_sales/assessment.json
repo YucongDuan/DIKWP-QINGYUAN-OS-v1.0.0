@@ -1,0 +1,124 @@
+{
+  "item_id": "QY-EX-08",
+  "model_disagreement": {
+    "forced_single_truth_score": false,
+    "non_isomorphic_models_retained": [
+      "WM-EVIDENCE",
+      "WM-MANIPULATION",
+      "WM-HARM-RIGHTS"
+    ],
+    "observations": [
+      "No decisive cross-model conflict; model dimensions remain separately visible."
+    ]
+  },
+  "non_aggregated_profile": {
+    "addictive_design": 0.4,
+    "autonomy_risk": 0.488125,
+    "certainty_mismatch": 0.0,
+    "commercial_conflict": 1.0,
+    "evidence_deficit": 1.0,
+    "manipulation_pressure": 0.3125,
+    "negative_truth_preservation": 0.0,
+    "potential_harm": 0.6545,
+    "provenance_deficit": 0.45,
+    "pseudo_knowledge_packaging": 0.65,
+    "suppression_protection": 0.0,
+    "vulnerable_targeting": 0.91
+  },
+  "signals": {
+    "category_scores": {
+      "absolute_certainty": 0.0,
+      "authority_social_proof": 0.0,
+      "engagement_hook": 0.0,
+      "fear_shame_pressure": 0.0,
+      "financial_guarantee": 0.0,
+      "harassment_dehumanization": 0.0,
+      "medical_displacement": 0.0,
+      "pseudo_knowledge_packaging": 0.0,
+      "secrecy_isolation": 0.3333333333333333,
+      "transaction_request": 0.6666666666666666,
+      "urgency_scarcity": 0.0
+    },
+    "context_discount": 1.0,
+    "matches": {
+      "absolute_certainty": [],
+      "authority_social_proof": [],
+      "engagement_hook": [],
+      "fear_shame_pressure": [],
+      "financial_guarantee": [],
+      "harassment_dehumanization": [],
+      "medical_displacement": [],
+      "pseudo_knowledge_packaging": [],
+      "secrecy_isolation": [
+        "只有圈内人才知道"
+      ],
+      "transaction_request": [
+        "付费社群",
+        "借钱加入"
+      ],
+      "urgency_scarcity": []
+    },
+    "note": "Lexical signals are screening indicators, not proof of falsity or harmful intent.",
+    "quoted_or_reported": false,
+    "satire": false
+  },
+  "world_models": {
+    "evidence": {
+      "claim_results": [
+        {
+          "certainty_mismatch": 0.0,
+          "claim_id": "C1",
+          "claim_type": "testimonial",
+          "evidence_deficit": 1.0,
+          "evidence_items": 0,
+          "evidence_quality": 0.0,
+          "requested_behavior": "borrow money, pay entry fee, reduce family contact",
+          "stakes": "high",
+          "status": "UNSUPPORTED_IN_SUBMITTED_RECORD"
+        }
+      ],
+      "independent_outcome_records": 0,
+      "max_certainty_mismatch": 0.0,
+      "max_evidence_deficit": 1.0,
+      "mean_evidence_quality": 0.0,
+      "model_family": "provenance-and-verifiability",
+      "model_id": "WM-EVIDENCE",
+      "provenance_deficit": 0.45,
+      "provenance_quality": 0.55,
+      "scope_boundary": "Assesses submitted evidence and provenance; it does not infer universal truth from absence of a citation."
+    },
+    "harm_and_rights": {
+      "autonomy_risk": 0.488125,
+      "emotional_valence_is_not_truth": true,
+      "imminent_danger": false,
+      "model_family": "harm-autonomy-and-expression-rights",
+      "model_id": "WM-HARM-RIGHTS",
+      "negative_truth_preservation": 0.0,
+      "potential_harm": 0.6545,
+      "scope_boundary": "Unpleasant, critical, pessimistic, or dissenting speech is not harmful misinformation merely because it feels negative.",
+      "suppression_protection": 0.0
+    },
+    "manipulation": {
+      "active_design_signals": [
+        "push_pressure",
+        "social_comparison"
+      ],
+      "addictive_design": 0.4,
+      "commercial_conflict": 1.0,
+      "interest_map": {
+        "affiliate": true,
+        "payment_present": true,
+        "recommendation_incentive": "member recruitment rewards",
+        "refund_disclosed": false,
+        "seller_or_creator": "Family-provided account",
+        "sponsor_disclosed": false
+      },
+      "manipulation_pressure": 0.3125,
+      "model_family": "pressure-addiction-and-incentive",
+      "model_id": "WM-MANIPULATION",
+      "pseudo_knowledge_packaging": 0.65,
+      "scope_boundary": "Signals indicate a need for review or friction; they do not prove malicious intent by themselves.",
+      "vulnerable_targeting": 0.91
+    }
+  }
+}

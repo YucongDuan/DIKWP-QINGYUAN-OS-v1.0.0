@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIKWP-QINGYUAN Bounded Assessment Certificate",
+  "type": "object",
+  "required": ["certificate_id", "item_id", "run_hash", "disposition", "non_aggregated_profile", "actions", "claim_boundaries", "automatic_external_action_authority", "automatic_deletion", "appeal_available"],
+  "properties": {
+    "automatic_external_action_authority": {"const": 0},
+    "automatic_deletion": {"const": false},
+    "appeal_available": {"const": true},
+    "world_models_retained": {"type": "array", "minItems": 2},
+    "semantic_closure_vector": {"pattern": "^[01]{5}$"}
+  }
+}

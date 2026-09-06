@@ -1,0 +1,72 @@
+{
+  "actions": [
+    {
+      "action_id": "A-PRESERVE-SURFACE",
+      "action_type": "PRESERVE_AND_SURFACE",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Do not demote merely because the content is alarming, critical, pessimistic, or emotionally negative.",
+      "expiry_hours": 0,
+      "level": "L0_OBSERVE",
+      "level_rank": 0,
+      "owner": "public_health_editor",
+      "reason_codes": [
+        "NEGATIVE_OR_CRITICAL_CONTENT_WITH_EVIDENCE",
+        "PUBLIC_INTEREST"
+      ],
+      "requires_human_authorization": false,
+      "reversible": true,
+      "target": "content_visibility"
+    }
+  ],
+  "appeal_available": true,
+  "automatic_deletion": false,
+  "automatic_external_action_authority": 0,
+  "causal_handoff": {
+    "kill_condition": "stop or reverse intervention if evidence, appeal, or measured outcome no longer supports it",
+    "next_action": "preserve the content and continue ordinary provenance monitoring",
+    "owner": "public_health_editor",
+    "required_artifact": "claim-level evidence packet and post-intervention outcome report"
+  },
+  "certificate_id": "QY-CERT-QY-EX-01-6b452c2b514c832f",
+  "claim_boundaries": {
+    "legality": "NOT_ADJUDICATED",
+    "malicious_intent": "NOT_ESTABLISHED_BY_SIGNAL_SCREENING",
+    "mental_health_or_capacity_of_person": "NOT_ASSESSED",
+    "real_world_effectiveness": "NOT_ESTABLISHED_UNTIL_OUTCOMES_ARE_MEASURED",
+    "truth_of_all_claims": "NOT_ESTABLISHED_BY_RUNTIME_ALONE"
+  },
+  "content_sha256": "4a80edbdfd9a5660fe69d110485b0eda6863ee1f84643565e614548c2390ff65",
+  "disposition": "PRESERVE_AND_SURFACE",
+  "item_id": "QY-EX-01",
+  "non_aggregated_profile": {
+    "addictive_design": 0.0,
+    "autonomy_risk": 0.0,
+    "certainty_mismatch": 0.0,
+    "commercial_conflict": 0.0,
+    "evidence_deficit": 0.0,
+    "manipulation_pressure": 0.0,
+    "negative_truth_preservation": 1.0,
+    "potential_harm": 0.414,
+    "provenance_deficit": 0.0,
+    "pseudo_knowledge_packaging": 0.0,
+    "suppression_protection": 0.45,
+    "vulnerable_targeting": 0.0
+  },
+  "rights_and_safety": {
+    "lawful_criticism_is_not_negative_information": true,
+    "no_person_is_classified_as_a_problem": true,
+    "no_secret_permanent_blacklist": true,
+    "satire_and_quotation_require_context": true,
+    "uncomfortable_truth_is_not_suppressed": true
+  },
+  "run_hash": "6b452c2b514c832fba864d030c4588f08721352b864bfe69b9c94600d57e5a5d",
+  "semantic_closure_vector": "11111",
+  "system": "DIKWP-QINGYUAN-OS",
+  "version": "1.0.0",
+  "world_models_retained": [
+    "WM-EVIDENCE",
+    "WM-MANIPULATION",
+    "WM-HARM-RIGHTS"
+  ]
+}

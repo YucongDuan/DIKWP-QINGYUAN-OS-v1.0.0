@@ -1,0 +1,56 @@
+{
+  "applicable": true,
+  "automatic_external_action_authority": 0,
+  "consent": "unknown",
+  "imminent_danger": false,
+  "mode": "RELATIONSHIP_PRESERVING_MOTIVATIONAL_REVIEW",
+  "next_action": "Ask permission to examine one concrete decision consequence rather than trying to overturn the whole worldview.",
+  "professional_boundary": "This plan is supportive decision hygiene, not psychotherapy, diagnosis, guardianship, or legal adjudication.",
+  "readiness": "unknown",
+  "safeguards": [
+    "Do not covertly manipulate, isolate, threaten, humiliate, or impersonate the person.",
+    "Do not diagnose mental illness from beliefs alone.",
+    "Do not confiscate devices, money, or identity documents without lawful authority.",
+    "Preserve dissent and the right to refuse persuasion, except where immediate safety duties legally apply.",
+    "Separate support for the person from assessment of the claim or seller.",
+    "Use lawful dual-control or spending limits for shared assets while preserving the person's personal rights and appeal."
+  ],
+  "shared_risk": true,
+  "steps": [
+    {
+      "instruction": "先确认是否存在立即人身、医疗、财务或未成年人风险；不要羞辱、围攻或用‘认知低’给人贴标签。",
+      "name": "关系与安全先行",
+      "step": 1
+    },
+    {
+      "instruction": "用‘我担心这个决定的后果，愿不愿意一起核对一项具体主张？’取得有限同意；不同意时不强行改造信念。",
+      "name": "请求参与许可",
+      "step": 2
+    },
+    {
+      "instruction": "尊重当事人，同时把可核验主张、付款要求、社交隔离、时间压力和承诺后果分别列出。",
+      "name": "拆分人、关系与主张",
+      "step": 3
+    },
+    {
+      "instruction": "建议24至72小时冷静期、暂缓转账/停药/退学/断联等不可逆行为；使用书面清单而非争吵。",
+      "name": "暂停不可逆决定",
+      "step": 4
+    },
+    {
+      "instruction": "共同选择一项能区分说法的小测试：核对原始来源、联系独立专业人士、验证退款条款或检查历史预测。",
+      "name": "做一个小而可逆的检验",
+      "step": 5
+    },
+    {
+      "instruction": "提供非控制性的社交、学习、工作或治疗替代路径，减少对单一群体、导师、产品或平台的依赖。",
+      "name": "恢复替代关系与选择",
+      "step": 6
+    },
+    {
+      "instruction": "仅在高风险、欺诈、能力受损或迫近危险时，依法联系有资格的医疗、法律、金融、学校或安全人员；不由本系统诊断。",
+      "name": "有界升级",
+      "step": 7
+    }
+  ]
+}

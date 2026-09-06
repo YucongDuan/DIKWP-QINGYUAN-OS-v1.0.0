@@ -1,0 +1,34 @@
+{
+  "claim_statuses": [
+    {
+      "certainty_mismatch": 0.326667,
+      "claim_id": "C1",
+      "evidence_quality": 0.2,
+      "status": "WEAKLY_SUPPORTED"
+    }
+  ],
+  "harm_context": {
+    "autonomy_risk": 0.32125,
+    "potential_harm": 0.4375
+  },
+  "headline": "以正能量和用户见证包装的量子能量产品",
+  "interest_status": {
+    "affiliate": true,
+    "payment_present": true,
+    "recommendation_incentive": "affiliate commission",
+    "refund_disclosed": false,
+    "seller_or_creator": "Lifestyle Influencer",
+    "sponsor_disclosed": false
+  },
+  "item_id": "QY-EX-06",
+  "rights_notice": {
+    "negative_or_unpopular_does_not_mean_false": true,
+    "person_is_not_equated_with_claim": true,
+    "positive_or_inspirational_does_not_mean_true": true,
+    "uncertainty_is_explicit": true
+  },
+  "source_status": {
+    "provenance_deficit": 0.0,
+    "provenance_quality": 1.0
+  }
+}

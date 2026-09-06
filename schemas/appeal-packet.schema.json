@@ -1,0 +1,11 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIKWP-QINGYUAN Appeal Packet",
+  "type": "object",
+  "required": ["appeal_available", "grounds", "required_review", "no_retaliation_for_appeal", "no_secret_permanent_blacklist"],
+  "properties": {
+    "appeal_available": {"const": true},
+    "no_retaliation_for_appeal": {"const": true},
+    "no_secret_permanent_blacklist": {"const": true}
+  }
+}

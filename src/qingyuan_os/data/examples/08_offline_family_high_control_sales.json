@@ -1,0 +1,26 @@
+{
+  "item_id": "QY-EX-08",
+  "title": "现实生活中的高控制型知识售卖与家庭支持",
+  "channel": "offline",
+  "content_type": "family_support_case",
+  "language": "zh-CN",
+  "text": "某付费社群要求成员缴纳高额入门费，借钱加入，并减少与质疑它的家人接触。导师称这是只有圈内人才知道的秘密知识，退出就会失去人生机会。家人担心当事人，但当事人尚未同意全面讨论。",
+  "source": {"publisher": "Family-provided account", "identity_verified": false, "provenance_note": "Second-hand report; contracts and payment records not yet collected"},
+  "audience": {"groups": ["financially_distressed"], "vulnerabilities": ["social_isolation", "debt_risk"], "targeted": true},
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "加入付费社群是获得人生机会的唯一途径",
+      "type": "testimonial",
+      "stakes": "high",
+      "bounded": false,
+      "requested_behavior": "borrow money, pay entry fee, reduce family contact",
+      "evidence": []
+    }
+  ],
+  "commercial": {"price": 20000, "affiliate": true, "recurring_subscription": true, "sponsor_present": true, "sponsor_disclosed": false, "refund_disclosed": false, "recommendation_incentive": "member recruitment rewards"},
+  "design": {"social_comparison": true, "push_pressure": true},
+  "context": {"real_life_support": true, "readiness": "not_ready", "consent": "unknown", "shared_finance_or_dependents": true, "imminent_danger": false},
+  "declared_outcomes": {},
+  "purpose": {"owner": "family_support_coordinator", "objective": "protect relationships and irreversible resources without forced deprogramming", "automatic_external_action_authority": 0}
+}

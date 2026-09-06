@@ -1,0 +1,77 @@
+{
+  "item_id": "MY-ITEM-001",
+  "title": "Example content or real-life case",
+  "channel": "online",
+  "content_type": "post",
+  "language": "zh-CN",
+  "text": "Paste the content or a factual case description here.",
+  "source": {
+    "publisher": "",
+    "url": "",
+    "identity_verified": false,
+    "provenance_note": ""
+  },
+  "audience": {
+    "groups": ["general_public"],
+    "vulnerabilities": [],
+    "targeted": false
+  },
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "A concrete factual claim",
+      "type": "factual",
+      "stakes": "medium",
+      "bounded": true,
+      "requested_behavior": "",
+      "evidence": [
+        {
+          "type": "none",
+          "locator": "",
+          "independent": false,
+          "verifiable": false,
+          "direct": false
+        }
+      ]
+    }
+  ],
+  "commercial": {
+    "price": 0,
+    "affiliate": false,
+    "recurring_subscription": false,
+    "sponsor_present": false,
+    "sponsor_disclosed": false,
+    "refund_disclosed": true,
+    "recommendation_incentive": "unknown"
+  },
+  "design": {
+    "autoplay": false,
+    "infinite_scroll": false,
+    "variable_reward": false,
+    "streak": false,
+    "push_pressure": false,
+    "countdown": false,
+    "intermittent_reward": false,
+    "social_comparison": false
+  },
+  "context": {
+    "public_interest": false,
+    "criticism_or_dissent": false,
+    "whistleblowing": false,
+    "minority_view": false,
+    "satire": false,
+    "quoted_or_reported": false,
+    "warning": false,
+    "real_life_support": false,
+    "readiness": "unknown",
+    "consent": "unknown",
+    "shared_finance_or_dependents": false,
+    "imminent_danger": false
+  },
+  "declared_outcomes": {},
+  "purpose": {
+    "owner": "named_authorized_reviewer",
+    "objective": "return evidence and choose the least restrictive effective response",
+    "automatic_external_action_authority": 0
+  }
+}

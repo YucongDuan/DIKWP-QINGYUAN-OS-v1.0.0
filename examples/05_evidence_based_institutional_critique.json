@@ -1,0 +1,28 @@
+{
+  "item_id": "QY-EX-05",
+  "title": "有文件支持的机构批评与揭弊材料",
+  "channel": "online",
+  "content_type": "investigative_critique",
+  "language": "zh-CN",
+  "text": "这份调查指出某机构在采购过程中存在未披露的利益冲突。结论可能令人不安，也会损害机构形象，但附件包含合同、会议记录和可复核的付款数据。请核对原始文件并允许机构答复。",
+  "source": {"publisher": "Independent Investigative Team", "url": "https://example.invalid/investigation", "identity_verified": true, "provenance_note": "Document archive with signed hashes"},
+  "audience": {"groups": ["general_public"], "vulnerabilities": [], "targeted": false},
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "采购存在未披露利益冲突",
+      "type": "factual",
+      "stakes": "high",
+      "bounded": true,
+      "evidence": [
+        {"type": "primary_document", "locator": "contract-bundle", "independent": true, "verifiable": true, "direct": true},
+        {"type": "official_record", "locator": "payment-ledger", "independent": true, "verifiable": true, "direct": true}
+      ]
+    }
+  ],
+  "commercial": {"price": 0, "affiliate": false, "sponsor_present": false, "refund_disclosed": true},
+  "design": {},
+  "context": {"public_interest": true, "criticism_or_dissent": true, "whistleblowing": true, "minority_view": true, "warning": false},
+  "declared_outcomes": {"independent_verification": ["document hash verification"]},
+  "purpose": {"owner": "independent_public_interest_editor", "objective": "preserve evidence-based criticism and enable reply", "automatic_external_action_authority": 0}
+}

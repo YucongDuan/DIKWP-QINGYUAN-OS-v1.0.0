@@ -1,0 +1,35 @@
+{
+  "actual_outcomes_must_update_models": true,
+  "not_one_uncertainty_score": true,
+  "open_items": [
+    {
+      "description": "One or more factual claims lack independently verifiable support in the submitted record.",
+      "owner": "family_support_coordinator",
+      "reopen_condition": "Append primary, peer-reviewed, official, or independently reproducible evidence with a stable locator.",
+      "residual_id": "R-QY-EX-08-EVIDENCE",
+      "type": "EVIDENCE_GAP"
+    },
+    {
+      "description": "Authorship, origin, sponsorship, or chain of custody is incomplete.",
+      "owner": "family_support_coordinator",
+      "reopen_condition": "Supply identity, origin, edit history, sponsorship, and source document references.",
+      "residual_id": "R-QY-EX-08-PROVENANCE",
+      "type": "SOURCE_PROVENANCE_GAP"
+    },
+    {
+      "description": "The commercial or recommendation incentive may affect presentation or targeting.",
+      "owner": "family_support_coordinator",
+      "reopen_condition": "Disclose sponsor/affiliate terms, outcome-claim basis, refund policy, and recommendation incentives.",
+      "residual_id": "R-QY-EX-08-INTEREST",
+      "type": "INCENTIVE_CONFLICT"
+    },
+    {
+      "description": "The effect of friction, de-amplification, or review has not yet been observed.",
+      "owner": "family_support_coordinator",
+      "reopen_condition": "Measure harmful exposure, false positives, appeal reversals, user autonomy, and displacement to other channels.",
+      "residual_id": "R-QY-EX-08-OUTCOME",
+      "type": "REAL_WORLD_OUTCOME_DEBT"
+    }
+  ],
+  "unobserved_outcomes_are_reality_debt": true
+}

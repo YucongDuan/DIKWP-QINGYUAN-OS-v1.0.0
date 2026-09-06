@@ -1,0 +1,38 @@
+{
+  "chinese_name": "清源：主动认知环境免疫、操纵断链与证据回流系统",
+  "hard_invariants": {
+    "aggregate_score_used": false,
+    "appeal_for_high_impact_actions": true,
+    "automatic_deletion": false,
+    "automatic_external_action_authority": 0,
+    "local_user_controlled_feed_transformation": true,
+    "negative_truth_protection": true,
+    "positive_packaging_not_exempt_from_evidence": true,
+    "quarantine_archive_preserves_original": true,
+    "secret_permanent_blacklist": false,
+    "temporary_action_expiry_required": true
+  },
+  "intervention_levels": 8,
+  "mission": [
+    "reduce evidence-free high-stakes certainty",
+    "interrupt manipulative and addictive amplification",
+    "interrupt exploitative monetization and vulnerable targeting",
+    "return provenance, uncertainty, counterevidence, and appeal",
+    "support real-life decision protection without forced belief change",
+    "apply user-controlled local feed shielding without deleting source records"
+  ],
+  "not_equivalent_to": [
+    "removing all negative emotion",
+    "suppressing criticism, dissent, satire, minority views, or bad news",
+    "classifying people as good, bad, low-cognition, or mentally ill",
+    "automatic fact, intent, legality, or capacity adjudication"
+  ],
+  "reference_scenarios": 8,
+  "system": "DIKWP-QINGYUAN-OS",
+  "version": "1.0.0",
+  "world_models": [
+    "WM-EVIDENCE",
+    "WM-MANIPULATION",
+    "WM-HARM-RIGHTS"
+  ]
+}

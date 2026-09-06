@@ -1,0 +1,9 @@
+{
+  "automatic_external_action_authority": 0,
+  "feed_id": "QY-DEMO-FEED",
+  "item_count": 5,
+  "locally_held_count": 1,
+  "merkle_root": "ce46e03cc50a4750cac251a76bcb8d53eed6f2bef2d31a3d897b9e665e552116",
+  "shield_run_hash": "2b69601c17f3762b551aac7967cc0f208bd8e7263c9e8a14c525435bca39bd34",
+  "source_deletion": false
+}

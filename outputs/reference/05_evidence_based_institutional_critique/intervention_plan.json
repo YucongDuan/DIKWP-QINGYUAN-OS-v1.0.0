@@ -1,0 +1,44 @@
+{
+  "actions": [
+    {
+      "action_id": "A-PRESERVE-SURFACE",
+      "action_type": "PRESERVE_AND_SURFACE",
+      "appeal_available": true,
+      "automatic_execution": false,
+      "detail": "Do not demote merely because the content is alarming, critical, pessimistic, or emotionally negative.",
+      "expiry_hours": 0,
+      "level": "L0_OBSERVE",
+      "level_rank": 0,
+      "owner": "independent_public_interest_editor",
+      "reason_codes": [
+        "NEGATIVE_OR_CRITICAL_CONTENT_WITH_EVIDENCE",
+        "PUBLIC_INTEREST"
+      ],
+      "requires_human_authorization": false,
+      "reversible": true,
+      "target": "content_visibility"
+    }
+  ],
+  "decision_logic": {
+    "aggregate_score_used": false,
+    "appeal_required": true,
+    "automatic_deletion": false,
+    "automatic_external_action_authority": 0,
+    "emotional_valence_used_as_restriction_signal": false,
+    "public_interest_and_dissent_firewall": true,
+    "temporary_actions_require_expiry": true
+  },
+  "disposition": "PRESERVE_AND_SURFACE",
+  "highest_level_rank": 0,
+  "reason_codes": [
+    "DISSENT_OR_WARNING_PRESERVATION",
+    "NEGATIVE_TRUTH_PROTECTION"
+  ],
+  "rights_firewall": {
+    "lawful_criticism_is_not_negative_information": true,
+    "no_person_is_classified_as_a_problem": true,
+    "no_secret_permanent_blacklist": true,
+    "satire_and_quotation_require_context": true,
+    "uncomfortable_truth_is_not_suppressed": true
+  }
+}

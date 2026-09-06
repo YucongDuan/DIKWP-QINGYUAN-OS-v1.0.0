@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="960" viewBox="0 0 1600 960" role="img" aria-labelledby="title desc">
+  <title id="title">DIKWP-QINGYUAN-OS architecture</title>
+  <desc id="desc">A rights-preserving pipeline from online and real-life inputs through three plural world models, DIKWP semantic registration, reversible intervention, appeal, and outcome calibration.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#07182d"/><stop offset="1" stop-color="#12394c"/></linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff" stop-opacity="0.98"/><stop offset="1" stop-color="#eaf7f5" stop-opacity="0.98"/></linearGradient>
+    <filter id="shadow"><feDropShadow dx="0" dy="8" stdDeviation="10" flood-opacity="0.28"/></filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#55d4c5"/></marker>
+    <style>
+      .title{font:700 46px Arial,sans-serif;fill:#fff}.sub{font:22px Arial,sans-serif;fill:#b9e6e1}.box{fill:#f7fbfb;stroke:#55d4c5;stroke-width:2}
+      .h{font:700 23px Arial,sans-serif;fill:#0b2b3c}.t{font:18px Arial,sans-serif;fill:#294d5b}.small{font:16px Arial,sans-serif;fill:#365e6d}.arrow{stroke:#55d4c5;stroke-width:4;fill:none;marker-end:url(#arrow)}
+      .pill{fill:#173f54;stroke:#74e2d5;stroke-width:1.5;rx:18}.pillt{font:700 17px Arial,sans-serif;fill:#eafffc}.warn{fill:#5b2833;stroke:#ff9f9f;stroke-width:2;rx:18}.warnt{font:700 17px Arial,sans-serif;fill:#fff}
+    </style>
+  </defs>
+  <rect width="1600" height="960" fill="url(#bg)"/>
+  <text x="800" y="70" text-anchor="middle" class="title">DIKWP-QINGYUAN-OS · 清源</text>
+  <text x="800" y="110" text-anchor="middle" class="sub">主动认知环境免疫 · 操纵断链 · 证据回流 · 权利与申诉</text>
+
+  <rect x="60" y="160" width="280" height="200" class="box" rx="22"/>
+  <text x="200" y="202" text-anchor="middle" class="h">输入 / Inputs</text>
+  <text x="90" y="244" class="t">• 网络内容与推荐流</text><text x="90" y="277" class="t">• 课程、广告、社群与产品</text>
+  <text x="90" y="310" class="t">• 现实对话与决策场景</text><text x="90" y="343" class="t">• 来源、证据、利益与受众</text>
+
+  <rect x="410" y="150" width="330" height="215" class="box" rx="22"/>
+  <text x="575" y="193" text-anchor="middle" class="h">三类非同构世界模型</text>
+  <rect x="445" y="218" width="260" height="36" class="pill"/><text x="575" y="242" text-anchor="middle" class="pillt">证据 / 来源 / 可验证性</text>
+  <rect x="445" y="267" width="260" height="36" class="pill"/><text x="575" y="291" text-anchor="middle" class="pillt">操纵 / 上瘾 / 利益回流</text>
+  <rect x="445" y="316" width="260" height="36" class="pill"/><text x="575" y="340" text-anchor="middle" class="pillt">伤害 / 自主 / 表达权</text>
+
+  <rect x="810" y="150" width="330" height="215" class="box" rx="22"/>
+  <text x="975" y="193" text-anchor="middle" class="h">DIKWP 原生登记</text>
+  <text x="845" y="235" class="t">D · 可重放来源与证据</text><text x="845" y="268" class="t">I · 后继差异与模型冲突</text>
+  <text x="845" y="301" class="t">K · 有界当前评估</text><text x="845" y="334" class="t">W/P · 后果配置与行动合同</text>
+
+  <rect x="1210" y="150" width="330" height="215" class="box" rx="22"/>
+  <text x="1375" y="193" text-anchor="middle" class="h">权利防火墙</text>
+  <text x="1240" y="235" class="t">• 负面事实、警示、批评不压制</text><text x="1240" y="268" class="t">• 正面包装同样接受证据审计</text>
+  <text x="1240" y="301" class="t">• 不把人、群体或信念列黑名单</text><text x="1240" y="334" class="t">• 具名、限时、可逆、可申诉</text>
+
+  <path d="M340 260 H400" class="arrow"/><path d="M740 260 H800" class="arrow"/><path d="M1140 260 H1200" class="arrow"/>
+
+  <rect x="100" y="460" width="1400" height="175" class="box" rx="22"/>
+  <text x="800" y="505" text-anchor="middle" class="h">八级主动干预阶梯 / Proportional Intervention Ladder</text>
+  <g>
+    <rect x="135" y="535" width="145" height="58" class="pill"/><text x="207" y="559" text-anchor="middle" class="pillt">L0 保留呈现</text><text x="207" y="580" text-anchor="middle" class="small" fill="#fff">真相与异议保护</text>
+    <rect x="298" y="535" width="145" height="58" class="pill"/><text x="370" y="559" text-anchor="middle" class="pillt">L1 来源回流</text><text x="370" y="580" text-anchor="middle" class="small" fill="#fff">证据与利益披露</text>
+    <rect x="461" y="535" width="145" height="58" class="pill"/><text x="533" y="559" text-anchor="middle" class="pillt">L2 语境反证</text><text x="533" y="580" text-anchor="middle" class="small" fill="#fff">替代解释</text>
+    <rect x="624" y="535" width="145" height="58" class="pill"/><text x="696" y="559" text-anchor="middle" class="pillt">L3 认知摩擦</text><text x="696" y="580" text-anchor="middle" class="small" fill="#fff">暂停与退出</text>
+    <rect x="787" y="535" width="145" height="58" class="pill"/><text x="859" y="559" text-anchor="middle" class="pillt">L4 操纵断链</text><text x="859" y="580" text-anchor="middle" class="small" fill="#fff">降放大/停获利</text>
+    <rect x="950" y="535" width="145" height="58" class="pill"/><text x="1022" y="559" text-anchor="middle" class="pillt">L5 限时隔离</text><text x="1022" y="580" text-anchor="middle" class="small" fill="#fff">待复核</text>
+    <rect x="1113" y="535" width="145" height="58" class="pill"/><text x="1185" y="559" text-anchor="middle" class="pillt">L6 人工复核</text><text x="1185" y="580" text-anchor="middle" class="small" fill="#fff">领域与权利</text>
+    <rect x="1276" y="535" width="145" height="58" class="warn"/><text x="1348" y="559" text-anchor="middle" class="warnt">L7 紧急安全</text><text x="1348" y="580" text-anchor="middle" class="small" fill="#fff">仅迫近危险</text>
+  </g>
+
+  <rect x="100" y="720" width="300" height="150" class="box" rx="22"/>
+  <text x="250" y="762" text-anchor="middle" class="h">证据回流卡</text><text x="135" y="802" class="t">主张级状态 · 来源 · 利益</text><text x="135" y="835" class="t">什么证据会改变结论</text>
+  <rect x="450" y="720" width="300" height="150" class="box" rx="22"/>
+  <text x="600" y="762" text-anchor="middle" class="h">现实支持协议</text><text x="485" y="802" class="t">不羞辱、不强制改信</text><text x="485" y="835" class="t">保护关系与不可逆资源</text>
+  <rect x="800" y="720" width="300" height="150" class="box" rx="22"/>
+  <text x="950" y="762" text-anchor="middle" class="h">申诉与回滚</text><text x="835" y="802" class="t">独立复核 · 限时 · 无报复</text><text x="835" y="835" class="t">新证据可生成后继版本</text>
+  <rect x="1150" y="720" width="350" height="150" class="box" rx="22"/>
+  <text x="1325" y="762" text-anchor="middle" class="h">现实结果与模型退役</text><text x="1185" y="802" class="t">暴露减少 · 误伤 · 申诉改判</text><text x="1185" y="835" class="t">自主性 · 渠道迁移 · 再校准</text>
+
+  <path d="M800 635 V700" class="arrow"/><path d="M400 795 H440" class="arrow"/><path d="M750 795 H790" class="arrow"/><path d="M1100 795 H1140" class="arrow"/>
+  <text x="800" y="925" text-anchor="middle" class="sub">automatic_external_action_authority = 0 · automatic_deletion = false · aggregate_score_used = false</text>
+</svg>

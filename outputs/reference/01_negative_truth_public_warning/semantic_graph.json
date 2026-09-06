@@ -1,0 +1,219 @@
+{
+  "allowed_route_types": [
+    "D->D",
+    "D->I",
+    "D->K",
+    "D->W",
+    "D->P",
+    "I->D",
+    "I->I",
+    "I->K",
+    "I->W",
+    "I->P",
+    "K->D",
+    "K->I",
+    "K->K",
+    "K->W",
+    "K->P",
+    "W->D",
+    "W->I",
+    "W->K",
+    "W->W",
+    "W->P",
+    "P->D",
+    "P->I",
+    "P->K",
+    "P->W",
+    "P->P"
+  ],
+  "append_only": true,
+  "closure_vector": "11111",
+  "concept_aliases_have_zero_native_authority": true,
+  "note": "D/I/K/W/P are open roles, not a moral ranking and not labels for good or bad people.",
+  "positions": [
+    "D",
+    "I",
+    "K",
+    "W",
+    "P"
+  ],
+  "records": [
+    {
+      "content": {
+        "claims_submitted": 1,
+        "content_sha256": "4a80edbdfd9a5660fe69d110485b0eda6863ee1f84643565e614548c2390ff65",
+        "source": {
+          "identity_verified": true,
+          "provenance_note": "Signed laboratory record and dated public notice",
+          "publisher": "Local Public Health Laboratory",
+          "url": "https://example.invalid/public-record/water-test"
+        }
+      },
+      "immutable": true,
+      "position": "D",
+      "provenance": "submitted_item",
+      "record_id": "D-QY-EX-01-SOURCE"
+    },
+    {
+      "content": [
+        {
+          "certainty_mismatch": 0.0,
+          "claim_id": "C1",
+          "claim_type": "public_safety",
+          "evidence_deficit": 0.0,
+          "evidence_items": 2,
+          "evidence_quality": 1.0,
+          "requested_behavior": "",
+          "stakes": "high",
+          "status": "SUPPORTED_WITHIN_DECLARED_SCOPE"
+        }
+      ],
+      "immutable": true,
+      "position": "D",
+      "provenance": "WM-EVIDENCE",
+      "record_id": "D-QY-EX-01-EVIDENCE"
+    },
+    {
+      "content": {
+        "detected": {},
+        "note": "Lexical signals are screening indicators, not proof of falsity or harmful intent."
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "lexical_and_design_screen",
+      "record_id": "I-QY-EX-01-SIGNALS"
+    },
+    {
+      "content": {
+        "commercial_conflict": 0.0,
+        "evidence_deficit": 0.0,
+        "suppression_protection": 0.45
+      },
+      "immutable": true,
+      "position": "I",
+      "provenance": "plural_world_model_comparison",
+      "record_id": "I-QY-EX-01-CONFLICT"
+    },
+    {
+      "content": {
+        "disposition": "PRESERVE_AND_SURFACE",
+        "not_a_truth_or_intent_or_personhood_verdict": true,
+        "scope": "submitted item and declared context only"
+      },
+      "immutable": true,
+      "position": "K",
+      "provenance": "bounded_runtime_assessment",
+      "record_id": "K-QY-EX-01-ASSESSMENT"
+    },
+    {
+      "content": {
+        "avoid_coercive_belief_change": true,
+        "avoid_secret_blacklists": true,
+        "potential_harm": 0.414,
+        "protect_autonomy": true,
+        "protect_negative_truth_and_dissent": true,
+        "protect_vulnerable_people": true
+      },
+      "immutable": true,
+      "position": "W",
+      "provenance": "rights_and_harm_configuration",
+      "record_id": "W-QY-EX-01-RIGHTS"
+    },
+    {
+      "content": {
+        "actions": [
+          "PRESERVE_AND_SURFACE"
+        ],
+        "automatic_external_action_authority": 0,
+        "input_records": [
+          "D-QY-EX-01-SOURCE",
+          "D-QY-EX-01-EVIDENCE",
+          "I-QY-EX-01-SIGNALS",
+          "I-QY-EX-01-CONFLICT",
+          "K-QY-EX-01-ASSESSMENT",
+          "W-QY-EX-01-RIGHTS"
+        ],
+        "output": "reversible_intervention_plan"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "intervention_contract",
+      "record_id": "P-QY-EX-01-PLAN"
+    },
+    {
+      "content": {
+        "input": "open evidence and provenance positions",
+        "output": "specific evidence that would update the assessment"
+      },
+      "immutable": true,
+      "position": "P",
+      "provenance": "evidence_return_contract",
+      "record_id": "P-QY-EX-01-EVIDENCE-REQUEST"
+    }
+  ],
+  "routes": [
+    {
+      "generated_content": "Submitted traces are screened for consequential differences without declaring them false.",
+      "route_id": "R-35d536baaab8c910",
+      "route_type": "D->I",
+      "source_record_id": "D-QY-EX-01-SOURCE",
+      "target_record_id": "I-QY-EX-01-SIGNALS"
+    },
+    {
+      "generated_content": "Claim evidence constrains the bounded assessment.",
+      "route_id": "R-e345f15687203dce",
+      "route_type": "D->K",
+      "source_record_id": "D-QY-EX-01-EVIDENCE",
+      "target_record_id": "K-QY-EX-01-ASSESSMENT"
+    },
+    {
+      "generated_content": "Manipulation and uncertainty signals reopen simple accept/reject classification.",
+      "route_id": "R-386e37fcde4cb507",
+      "route_type": "I->K",
+      "source_record_id": "I-QY-EX-01-SIGNALS",
+      "target_record_id": "K-QY-EX-01-ASSESSMENT"
+    },
+    {
+      "generated_content": "Model disagreement activates autonomy and expression-rights review.",
+      "route_id": "R-818452e4158443fe",
+      "route_type": "I->W",
+      "source_record_id": "I-QY-EX-01-CONFLICT",
+      "target_record_id": "W-QY-EX-01-RIGHTS"
+    },
+    {
+      "generated_content": "Assessment consequences are checked before action.",
+      "route_id": "R-c9598723c44662de",
+      "route_type": "K->W",
+      "source_record_id": "K-QY-EX-01-ASSESSMENT",
+      "target_record_id": "W-QY-EX-01-RIGHTS"
+    },
+    {
+      "generated_content": "Configured values alter the selected intervention and cap censorship risk.",
+      "route_id": "R-9437bd3bdf8d6a0b",
+      "route_type": "W->P",
+      "source_record_id": "W-QY-EX-01-RIGHTS",
+      "target_record_id": "P-QY-EX-01-PLAN"
+    },
+    {
+      "generated_content": "The intervention emits a reversible request for missing evidence.",
+      "route_id": "R-61b468cfc7eb6fa1",
+      "route_type": "P->P",
+      "source_record_id": "P-QY-EX-01-PLAN",
+      "target_record_id": "P-QY-EX-01-EVIDENCE-REQUEST"
+    },
+    {
+      "generated_content": "New evidence may be appended as a successor D record; prior records remain addressable.",
+      "route_id": "R-536edf79af3429f8",
+      "route_type": "P->D",
+      "source_record_id": "P-QY-EX-01-EVIDENCE-REQUEST",
+      "target_record_id": "D-QY-EX-01-EVIDENCE"
+    },
+    {
+      "generated_content": "Strong evidence and public-interest status directly generate preservation and surfacing.",
+      "route_id": "R-75ff71f9d9ae2187",
+      "route_type": "D->P",
+      "source_record_id": "D-QY-EX-01-EVIDENCE",
+      "target_record_id": "P-QY-EX-01-PLAN"
+    }
+  ]
+}

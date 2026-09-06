@@ -1,0 +1,26 @@
+{
+  "item_id": "QY-EX-06",
+  "title": "以正能量和用户见证包装的量子能量产品",
+  "channel": "online",
+  "content_type": "influencer_product_promotion",
+  "language": "zh-CN",
+  "text": "戴上量子能量手环，你会立即变得专注、积极、成功。99%的用户都说人生被改变，顶级专家都认可。今天购买还送能量升级课程，绝对有效。",
+  "source": {"publisher": "Lifestyle Influencer", "url": "https://example.invalid/product", "identity_verified": true, "provenance_note": "Sponsored post; manufacturer study not supplied"},
+  "audience": {"groups": ["general_public", "students"], "vulnerabilities": ["performance_anxiety"], "targeted": true},
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "量子能量手环可立即改善专注与人生结果",
+      "type": "scientific",
+      "stakes": "medium",
+      "bounded": false,
+      "requested_behavior": "buy product and course",
+      "evidence": [{"type": "testimonial", "locator": "sponsored-comments", "independent": false, "verifiable": false, "direct": false}]
+    }
+  ],
+  "commercial": {"price": 899, "affiliate": true, "recurring_subscription": false, "sponsor_present": true, "sponsor_disclosed": false, "refund_disclosed": false, "recommendation_incentive": "affiliate commission"},
+  "design": {"countdown": true, "social_comparison": true},
+  "context": {"public_interest": false, "warning": false},
+  "declared_outcomes": {},
+  "purpose": {"owner": "consumer_protection_reviewer", "objective": "interrupt deceptive positive-energy monetization", "automatic_external_action_authority": 0}
+}

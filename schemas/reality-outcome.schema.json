@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "DIKWP-QINGYUAN Reality Outcome",
+  "type": "object",
+  "required": ["item_id", "intervention_id", "measurement_window", "metrics", "appeals", "model_update"],
+  "properties": {
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "harmful_exposure_change": {"type": "number"},
+        "false_positive_rate": {"type": "number", "minimum": 0, "maximum": 1},
+        "appeal_reversal_rate": {"type": "number", "minimum": 0, "maximum": 1},
+        "autonomy_change": {"type": "number"},
+        "channel_displacement": {"type": "number"}
+      }
+    },
+    "model_update": {"enum": ["retain", "recalibrate", "revise", "retire"]}
+  }
+}

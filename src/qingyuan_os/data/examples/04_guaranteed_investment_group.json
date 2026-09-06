@@ -1,0 +1,26 @@
+{
+  "item_id": "QY-EX-04",
+  "title": "保证收益并要求保密的投资群",
+  "channel": "hybrid",
+  "content_type": "investment_group_pitch",
+  "language": "zh-CN",
+  "text": "内部投资渠道，稳赚不赔，养老钱24小时内翻倍。最后机会，立即转账，不要告诉家人或银行。只有认知低的人才会错过，万人验证。",
+  "source": {"publisher": "Private Group Admin", "identity_verified": false, "provenance_note": "Account identity and company registration unavailable"},
+  "audience": {"groups": ["older_adults", "financially_distressed"], "vulnerabilities": ["retirement_savings", "financial_stress"], "targeted": true},
+  "claims": [
+    {
+      "claim_id": "C1",
+      "text": "投入养老资金可在24小时内无风险翻倍",
+      "type": "financial",
+      "stakes": "critical",
+      "bounded": false,
+      "requested_behavior": "transfer money immediately and conceal transaction",
+      "evidence": []
+    }
+  ],
+  "commercial": {"price": 10000, "affiliate": true, "recurring_subscription": false, "sponsor_present": true, "sponsor_disclosed": false, "refund_disclosed": false, "recommendation_incentive": "recruitment commission"},
+  "design": {"countdown": true, "push_pressure": true, "social_comparison": true},
+  "context": {"real_life_support": true, "readiness": "unknown", "consent": "unknown", "shared_finance_or_dependents": true, "imminent_danger": false},
+  "declared_outcomes": {},
+  "purpose": {"owner": "authorized_family_financial_safeguard", "objective": "pause irreversible transfer and trigger independent review", "automatic_external_action_authority": 0}
+}

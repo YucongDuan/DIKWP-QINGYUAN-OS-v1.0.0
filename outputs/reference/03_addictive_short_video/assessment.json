@@ -1,0 +1,118 @@
+{
+  "item_id": "QY-EX-03",
+  "model_disagreement": {
+    "forced_single_truth_score": false,
+    "non_isomorphic_models_retained": [
+      "WM-EVIDENCE",
+      "WM-MANIPULATION",
+      "WM-HARM-RIGHTS"
+    ],
+    "observations": [
+      "No decisive cross-model conflict; model dimensions remain separately visible."
+    ]
+  },
+  "non_aggregated_profile": {
+    "addictive_design": 1.0,
+    "autonomy_risk": 0.4825,
+    "certainty_mismatch": 0.0,
+    "commercial_conflict": 0.2,
+    "evidence_deficit": 0.0,
+    "manipulation_pressure": 0.0,
+    "negative_truth_preservation": 0.0,
+    "potential_harm": 0.2015,
+    "provenance_deficit": 0.0,
+    "pseudo_knowledge_packaging": 0.06,
+    "suppression_protection": 0.0,
+    "vulnerable_targeting": 0.73
+  },
+  "signals": {
+    "category_scores": {
+      "absolute_certainty": 0.0,
+      "authority_social_proof": 0.0,
+      "engagement_hook": 1.0,
+      "fear_shame_pressure": 0.0,
+      "financial_guarantee": 0.0,
+      "harassment_dehumanization": 0.0,
+      "medical_displacement": 0.0,
+      "pseudo_knowledge_packaging": 0.0,
+      "secrecy_isolation": 0.0,
+      "transaction_request": 0.0,
+      "urgency_scarcity": 0.0
+    },
+    "context_discount": 1.0,
+    "matches": {
+      "absolute_certainty": [],
+      "authority_social_proof": [],
+      "engagement_hook": [
+        "你绝对想不到",
+        "再刷一个",
+        "看到最后",
+        "解锁隐藏内容",
+        "连续签到"
+      ],
+      "fear_shame_pressure": [],
+      "financial_guarantee": [],
+      "harassment_dehumanization": [],
+      "medical_displacement": [],
+      "pseudo_knowledge_packaging": [],
+      "secrecy_isolation": [],
+      "transaction_request": [],
+      "urgency_scarcity": []
+    },
+    "note": "Lexical signals are screening indicators, not proof of falsity or harmful intent.",
+    "quoted_or_reported": false,
+    "satire": false
+  },
+  "world_models": {
+    "evidence": {
+      "claim_results": [],
+      "independent_outcome_records": 0,
+      "max_certainty_mismatch": 0.0,
+      "max_evidence_deficit": 0.0,
+      "mean_evidence_quality": 1.0,
+      "model_family": "provenance-and-verifiability",
+      "model_id": "WM-EVIDENCE",
+      "provenance_deficit": 0.0,
+      "provenance_quality": 1.0,
+      "scope_boundary": "Assesses submitted evidence and provenance; it does not infer universal truth from absence of a citation."
+    },
+    "harm_and_rights": {
+      "autonomy_risk": 0.4825,
+      "emotional_valence_is_not_truth": true,
+      "imminent_danger": false,
+      "model_family": "harm-autonomy-and-expression-rights",
+      "model_id": "WM-HARM-RIGHTS",
+      "negative_truth_preservation": 0.0,
+      "potential_harm": 0.2015,
+      "scope_boundary": "Unpleasant, critical, pessimistic, or dissenting speech is not harmful misinformation merely because it feels negative.",
+      "suppression_protection": 0.0
+    },
+    "manipulation": {
+      "active_design_signals": [
+        "autoplay",
+        "infinite_scroll",
+        "variable_reward",
+        "streak",
+        "push_pressure",
+        "intermittent_reward",
+        "social_comparison"
+      ],
+      "addictive_design": 1.0,
+      "commercial_conflict": 0.2,
+      "interest_map": {
+        "affiliate": false,
+        "payment_present": false,
+        "recommendation_incentive": "watch-time advertising",
+        "refund_disclosed": false,
+        "seller_or_creator": "Synthetic Video Platform",
+        "sponsor_disclosed": false
+      },
+      "manipulation_pressure": 0.0,
+      "model_family": "pressure-addiction-and-incentive",
+      "model_id": "WM-MANIPULATION",
+      "pseudo_knowledge_packaging": 0.06,
+      "scope_boundary": "Signals indicate a need for review or friction; they do not prove malicious intent by themselves.",
+      "vulnerable_targeting": 0.73
+    }
+  }
+}

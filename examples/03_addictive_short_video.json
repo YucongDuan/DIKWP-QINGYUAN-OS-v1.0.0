@@ -1,0 +1,16 @@
+{
+  "item_id": "QY-EX-03",
+  "title": "以变动奖励和无限滚动驱动的短视频流",
+  "channel": "online",
+  "content_type": "recommendation_feed",
+  "language": "zh-CN",
+  "text": "再刷一个，你绝对想不到下一集发生什么。连续签到可解锁隐藏内容，看到最后还有惊喜。",
+  "source": {"publisher": "Synthetic Video Platform", "url": "https://example.invalid/feed", "identity_verified": true, "provenance_note": "Synthetic interface study"},
+  "audience": {"groups": ["general_public", "children"], "vulnerabilities": ["attention_control"], "targeted": true},
+  "claims": [],
+  "commercial": {"price": 0, "affiliate": false, "sponsor_present": true, "sponsor_disclosed": false, "recommendation_incentive": "watch-time advertising"},
+  "design": {"autoplay": true, "infinite_scroll": true, "variable_reward": true, "streak": true, "push_pressure": true, "intermittent_reward": true, "social_comparison": true},
+  "context": {"public_interest": false, "warning": false},
+  "declared_outcomes": {},
+  "purpose": {"owner": "user_or_parental_control_profile", "objective": "reduce compulsive exposure without banning lawful content", "automatic_external_action_authority": 0}
+}

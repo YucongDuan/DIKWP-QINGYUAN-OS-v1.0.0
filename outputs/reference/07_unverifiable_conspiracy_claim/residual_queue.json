@@ -1,0 +1,21 @@
+{
+  "actual_outcomes_must_update_models": true,
+  "not_one_uncertainty_score": true,
+  "open_items": [
+    {
+      "description": "One or more factual claims lack independently verifiable support in the submitted record.",
+      "owner": "community_moderator",
+      "reopen_condition": "Append primary, peer-reviewed, official, or independently reproducible evidence with a stable locator.",
+      "residual_id": "R-QY-EX-07-EVIDENCE",
+      "type": "EVIDENCE_GAP"
+    },
+    {
+      "description": "Authorship, origin, sponsorship, or chain of custody is incomplete.",
+      "owner": "community_moderator",
+      "reopen_condition": "Supply identity, origin, edit history, sponsorship, and source document references.",
+      "residual_id": "R-QY-EX-07-PROVENANCE",
+      "type": "SOURCE_PROVENANCE_GAP"
+    }
+  ],
+  "unobserved_outcomes_are_reality_debt": true
+}
