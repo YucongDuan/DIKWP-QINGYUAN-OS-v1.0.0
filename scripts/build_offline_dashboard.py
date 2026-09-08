@@ -1,5 +1,11 @@
 from __future__ import annotations
 
+if __package__:
+    from ._ui_presentation import localize_html as _ui_localize_html
+else:
+    from _ui_presentation import localize_html as _ui_localize_html
+
+
 import html
 import json
 from pathlib import Path
@@ -101,7 +107,7 @@ $('cert').innerHTML=`<h3>证书</h3><p><code>${{esc(d.certificate.certificate_id
 $('scenario').innerHTML=DATA.map((d,i)=>`<option value="${{i}}">${{esc(d.id+' · '+d.title)}}</option>`).join('');$('scenario').onchange=e=>render(Number(e.target.value));$('next').onclick=()=>{{let i=(Number($('scenario').value)+1)%DATA.length;render(i)}};render(0);
 </script></body></html>'''
     OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(html_text, encoding="utf-8")
+    OUT.write_text(_ui_localize_html(html_text), encoding="utf-8")
     print(OUT)
 
 

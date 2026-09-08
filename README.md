@@ -1,10 +1,12 @@
 # DIKWP-QINGYUAN-OS 1.0.0
 
+Created by Yucong Duan (段玉聪).
+
 ## Proactive Cognitive-Environment Immunity, Manipulation Circuit-Breaking, and Evidence Return
 
 DIKWP-QINGYUAN-OS is an offline-capable, auditable research runtime for reducing high-stakes misinformation, manipulative persuasion, addictive amplification, vulnerable-audience exploitation, and monetized pseudo-knowledge.
 
-It does **not** treat negative emotion as falsity. Evidenced warnings, criticism, dissent, whistleblowing, grief, and bad news are protected. Positive, inspirational, healing, and success narratives receive the same evidence and incentive audit.
+It does not treat negative emotion as falsity. Evidenced warnings, criticism, dissent, whistleblowing, grief, and bad news are protected. Positive, inspirational, healing, and success narratives receive the same evidence and incentive audit.
 
 ### Three non-isomorphic world models
 
@@ -59,4 +61,8 @@ This release is one node in Yucong Duan's open DIKWP research ecosystem. Explore
 
 ## Dedication and attribution boundary
 
-This open research project is dedicated with love to **Duan Dikweipu (段迪克维普)**, daughter of Yucong Duan. The dedication conveys personal inspiration only; it does not assign authorship, legal responsibility, endorsement, or project authority to her.
+This open research project is dedicated with love to Duan Dikweipu (段迪克维普), daughter of Yucong Duan. The dedication conveys personal inspiration only; it does not assign authorship, legal responsibility, endorsement, or project authority to her.
+
+## Current interface presentation
+
+[Open the interface source](web/DIKWP_QINGYUAN_OS_Offline_Demo.html) from the current repository download. See [interface and authorship notes](INTERFACE_NOTES.md) for English coverage, report generation and validation scope.
